@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "name":"Polymers"
+    },
+    {
+        "id": 1,
+        "name":"Plasticizers"
+    },
+    {
+        "id": 2,
+        "name":"Pigments"
+    },
+    {
+        "id": 3,
+        "name":"PH Modifiers"
+    },
+    {
+        "id": 4,
+        "name":"Surfactants"
+    },
+    {
+        "id": 5,
+        "name":"Fillers"
+    },
+    {
+        "id": 6,
+        "name":"Solvents & Vehicles"
+    },
+    {
+        "id": 7,
+        "name":"Mordants, Tannins, Binders, Redox agents"
+    },
+    {
+        "id": 8,
+        "name":"miscellaneous"
+    },
+    {
+        "id": 9,
+        "name":"Growth media"
+    }
+]
