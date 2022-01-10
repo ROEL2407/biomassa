@@ -1,11 +1,11 @@
 /*
 Color pallette:
-#eee2dd
-#30151a
-#881e24
-#ee8599
-#71a2ba
-#ab644b
+#eee2dd = white
+#30151a = darkred
+#881e24 = winered
+#ee8599 = pink
+#71a2ba = lightblue
+#ab644b = brown
 
 */
 
@@ -27,4 +27,12 @@ a {
 
 .show {
     display: block;
+}
+
+.cat {
+    border: 3px solid ;
+}
+
+.item {
+    border: 1px solid;
 }
