@@ -8,3 +8,23 @@ Color pallette:
 #ab644b
 
 */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0em;
+    margin: 0em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
