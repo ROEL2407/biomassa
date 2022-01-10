@@ -374,15 +374,7 @@
       "subcategory": "",
       "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
       "base": "plants",
-      "origin": "['stems', 'leaves', 'sawdust']"
-    },
-    {
-      "name": "",
-      "category": "fillers",
-      "subcategory": "",
-      "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
-      "base": "plants",
-      "origin": "['glycerine]"
+      "origin": "['stems', 'leaves', 'sawdust', 'glycerine']"
     },
     {
       "name": "micro-algae",
@@ -418,22 +410,6 @@
       "origin": "['vinegar']"
     },
     {
-      "name": "animal",
-      "category": "pigments",
-      "subcategory": "",
-      "functions": "['give color']",
-      "base": "animal",
-      "origin": "['cochineal and lac insects', 'octopus ink (sepia)', 'murex snail, 'blood', 'bone black', 'egg shells']"
-    },
-    {
-      "name": "animal",
-      "category": "fillers",
-      "subcategory": "",
-      "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
-      "base": "animal",
-      "origin": "['egg shells', 'hair' , 'fur', 'feathers', 'bones']"
-    },
-    {
       "name": "clays & earth",
       "category": "pigments",
       "subcategory": "",
@@ -464,14 +440,6 @@
       "functions": "['change the PH of a liquid']",
       "base": "inorganic",
       "origin": "['chalk' , 'slaked lime']"
-    },
-    {
-      "name": "acidic",
-      "category": "pH modifiers",
-      "subcategory": "",
-      "functions": "['change the PH of a liquid']",
-      "base": "inorganic",
-      "origin": "['alum']"
     },
     {
       "name": "alkaline",
@@ -562,60 +530,12 @@
       "origin": "['e.g. vicenza earth, 'azurite' , 'turkoise']"
     },
     {
-      "name": "alkaline",
-      "category": "pH modifiers",
-      "subcategory": "",
-      "functions": "['change the PH of a liquid']",
-      "base": "inorganic",
-      "origin": "['chalk' , 'slaked lime']"
-    },
-    {
       "name": "acidic",
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
       "base": "inorganic",
       "origin": "['alum']"
-    },
-    {
-      "name": "alkaline",
-      "category": "pH modifiers",
-      "subcategory": "",
-      "functions": "['change the PH of a liquid']",
-      "base": "chemical compounds",
-      "origin": "['sodium carbonate' , 'sodium bicarbonate' , 'calcium carbonate' , 'ammonia']"
-    },
-    {
-      "name": "acidic",
-      "category": "pH modifiers",
-      "subcategory": "",
-      "functions": "['change the PH of a liquid']",
-      "base": "chemical compounds",
-      "origin": "['citric acid' , 'cream of tartar' , alum']"
-    },
-    {
-      "name": "powders",
-      "category": "fillers",
-      "subcategory": "",
-      "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
-      "base": "inorganic",
-      "origin": "['calcium carbonate' , 'activated coal']"
-    },
-    {
-      "name": "detergents",
-      "category": "surfactants",
-      "subcategory": "",
-      "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
-      "base": "chemical compounds",
-      "origin": "['hand soap' , 'dishwashing soap']"
-    },
-    {
-      "name": "alcohols",
-      "category": "surfactants",
-      "subcategory": "",
-      "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
-      "base": "chemical compounds",
-      "origin": "['methylated spirit (NL: spiritus)']"
     },
     {
       "name": "monoglycerides",
@@ -737,14 +657,6 @@
       "functions": "['attach pigments to fibre']",
       "base": "plants",
       "origin": "['wood ash lye']"
-    },
-    {
-      "name": "reduction & oxidation (redox for indigo dye)",
-      "category": "mordants, tannins, binders, redox agents",
-      "subcategory": "",
-      "functions": "['attach pigments to fibre']",
-      "base": "plants",
-      "origin": "['sugar', 'yeast']"
     },
     {
       "name": "reduction & oxidation (redox for indigo dye)",
