@@ -574,7 +574,7 @@
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
-      "base": "chemical compound",
+      "base": "chemical compounds",
       "origin": "['citric acid']"
     },
     {
@@ -819,14 +819,6 @@
       "origin": "['beef extract', 'meat extract']"
     },
     {
-      "name": "carbon (sugars)",
-      "category": "growth media",
-      "subcategory": "",
-      "functions": "['various functions in microbiological lab work']",
-      "base": "plants",
-      "origin": "['malt extract', 'glucose', 'dextrose', 'corn syrup', 'sugar', 'potato']"
-    },
-    {
       "name": "protein",
       "category": "growth media",
       "subcategory": "",
@@ -840,7 +832,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "plants",
-      "origin": "['vegetable peptone', 'starches', 'dextrose', 'maltose', 'glycerine']"
+      "origin": "['vegetable peptone', 'starches', 'dextrose', 'maltose', 'glycerine', 'malt extract', 'glucose', 'dextrose', 'corn syrup', 'sugar', 'potato']"
     },
     {
       "name": "pH buffer",
