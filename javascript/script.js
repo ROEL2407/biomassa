@@ -16,7 +16,16 @@
                     origin: item.origin
                 });
             });
-            console.log(data);
+            showData(itemArray);
+    }
+
+    function showData(data) {
+        data.forEach(item => {
+            temp = document.createElement('section');
+            temp.classList.add(item.base, 'item');
+            temp.innerHTML = item.name;
+            document.getElementById('wrapper').appendChild(temp);
+        })
     }
 
     function getData(url) {
