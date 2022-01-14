@@ -1,5 +1,5 @@
-return new Promise((resolve) => {
-    function starters() {
+
+    function fetching() {
         // Fetch init API
         fetch("../json/dataset.json")
             .then(response => response.json())
@@ -25,6 +25,6 @@ return new Promise((resolve) => {
             .then(response => response.json())
             .then(data => data);
     }
-    starters();
+    fetching();
 
-})
+
