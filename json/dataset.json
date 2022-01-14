@@ -84,7 +84,7 @@
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['Carboxy Methyl Cellulose (CMC)', 'Methyl Cellulose (MC)']"
     },
     {
@@ -308,7 +308,7 @@
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['sorbitol', 'mannitol', 'xylitol', 'ethylene- diethylene- triethylene, - tetraethylene and polyethylene glycol', 'propylene glycol']"
     },
     {
@@ -316,7 +316,7 @@
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['soap', 'glycerol monostearate']"
     },
     {
@@ -446,7 +446,7 @@
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['sodium carbonate' , 'sodium bicarbonate' , 'calcium carbonate' , 'ammonia']"
     },
     {
@@ -454,7 +454,7 @@
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['citric acid' , 'cream of tartar' , alum']"
     },
     {
@@ -470,7 +470,7 @@
       "category": "surfactants",
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['hand soap' , 'dishwashing soap']"
     },
     {
@@ -478,7 +478,7 @@
       "category": "surfactants",
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['methylated spirit (NL: spiritus)']"
     },
     {
@@ -486,7 +486,7 @@
       "category": "surfactants",
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['glycerol monostearate']"
     },
     {
@@ -542,7 +542,7 @@
       "category": "surfactants",
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['glycerol monostearate']"
     },
     {
@@ -574,7 +574,7 @@
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['citric acid']"
     },
     {
@@ -582,7 +582,7 @@
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['ethanol','isopropyl alcohol','diethyl ether']"
     },
     {
@@ -590,7 +590,7 @@
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['aceton']"
     },
    
@@ -695,7 +695,7 @@
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['alum (alum, potassium aluminium sulfate dodecahydrate, alum potash)', 'aluminium acetate']"
     },
     {
@@ -743,7 +743,7 @@
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['crosslinker']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['calcium chloride (for alginate)','citric acid (for starches)']"
     },
     {
@@ -751,7 +751,7 @@
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['pH buffer (stabilizes pH)']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['calcium carbonate','calcium hydroxide']"
     },
     {
@@ -759,7 +759,7 @@
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['disinfectant']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['hypocholorite bleach (10% solution)']"
     },
     {
@@ -887,7 +887,7 @@
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
-      "base": "chemical compounds",
+      "base": "chemical_compounds",
       "origin": "['citric acid', 'tartaric acid (acidic)', 'sodium hydroxide (alkaline)']"
     }
   ]
