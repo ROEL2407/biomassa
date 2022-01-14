@@ -15,6 +15,8 @@ Color palette:
     box-sizing: border-box;
     padding: 0em;
     margin: 0em;
+    font-family: 'Calibri';
+    font-size: 8pt;
 }
 
 a {
@@ -28,6 +30,8 @@ a {
 .show {
     display: block;
 }
+
+/* --------------------  end styling reset ------------- */
 
 .cat {
     border: 3px solid ;
