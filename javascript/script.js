@@ -21,10 +21,14 @@
 
     function showData(data) {
         data.forEach(item => {
-            temp = document.createElement('section');
-            temp.classList.add(item.base, 'item');
-            temp.innerHTML = item.name;
-            document.getElementById('wrapper').appendChild(temp);
+            tempItem = document.createElement('section');
+            tempItem.classList.add(item.base, 'item');
+            
+            tempItem.innerHTML = `<div class="dot" ></div>
+            <p>` + item.name + '</p>';
+            
+            ;
+            document.getElementById('wrapper').appendChild(tempItem);
         })
     }
 
