@@ -72,7 +72,46 @@ a {
 }
 
 /* --------------------  Background Hexagon ------------ */
+/* --------------------  categories Hexagon ------------ */
 
+
+.item {
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* .item.plant {
+    left: ;
+} navragen hoe ik dit kan doen */
+
+.plants .dot {
+    background-color: #71a2ba;
+}
+
+.animal .dot {
+    background-color: #ab644b;
+}
+
+.microbial .dot {
+    background-color: #881e24;
+}
+
+.inorganic .dot {
+    background-color: #ee8599;
+}
+
+.chemical_compounds .dot {
+    background-color: #eee2dd;
+    border: 1px solid black;
+
+}
+
+.petrol-based .dot {
+    background-color: #3a6478;
+
+}
 
 .dot {
     width: 8px;
