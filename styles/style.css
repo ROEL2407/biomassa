@@ -73,7 +73,7 @@ a {
 
 /* --------------------  Background Hexagon ------------ */
 /* --------------------  categories Hexagon ------------ */
-.hexagon {
+.cat-hexagon {
     position: relative;
     width: 300px;
     height: 173.21px;
@@ -83,8 +83,8 @@ a {
     border-right: solid 5px #333333;
 }
 
-.hexagon:before,
-.hexagon:after {
+.cat-hexagon:before,
+.cat-hexagon:after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -97,13 +97,13 @@ a {
     left: 38.9340px;
 }
 
-.hexagon:before {
+.cat-hexagon:before {
     top: -106.0660px;
     border-top: solid 7.0711px #333333;
     border-right: solid 7.0711px #333333;
 }
 
-.hexagon:after {
+.cat-hexagon:after {
     bottom: -106.0660px;
     border-bottom: solid 7.0711px #333333;
     border-left: solid 7.0711px #333333;
