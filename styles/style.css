@@ -71,7 +71,7 @@ a {
     border-left: solid 7.0711px #333333;
 }
 
-/* --------------------  Background Hexagon ------------ */
+/* --------------------  end Background Hexagon ------------ */
 /* --------------------  categories Hexagon ------------ */
 .cat-hexagon {
     position: relative;
@@ -109,6 +109,7 @@ a {
     border-left: solid 7.0711px #333333;
 }
 
+/* --------------------  end categories Hexagon ------------ */
 .item {
     border: 1px solid;
     display: flex;
