@@ -79,6 +79,7 @@ a {
 .polymers, .miscellaneous {
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 250px; 
@@ -124,6 +125,7 @@ a {
 .plasticizers, .pigments, .ph, .surfactants, .fillers, .solvents, .mordants, .growth_media {
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 200px; 
