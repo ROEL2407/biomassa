@@ -22,7 +22,7 @@
 
     function showCategory(data) {
         data.forEach(item => {
-            tempCat = document.createElement('section');
+            tempCat = document.createElement('a');
             tempCat.classList.add(item.class, 'cat-hexagon');
             
             tempCat.innerHTML = '<p>' + item.name + '</p>';
