@@ -19,7 +19,6 @@
                     origin: item.origin
                 });
             });
-            console.log(itemArray);
             showData(itemArray);
             showCat(itemArray);
     }
