@@ -38,21 +38,22 @@
     }
 
     function showCat(data) {
-        let catArray = [];
-        const base = 
-        console.log(catArray);
-        data.forEach(item => {
-            const category = item.category;
-            if(!catArray.includes(category)){
-                catArray.push ({
-                    Category: item.category
-                });
-            }
-            else {
-            }
-            console.log(1)
-        })
-        console.log(catArray);
+        // let catArray = [];
+        // const base = 
+        // console.log(catArray);
+        // data.forEach((data) => {
+        //     const category = data.category;
+        //     if(!catArray.includes(category)){
+        //         catArray.push ({
+        //             Category: data.category
+        //         });
+        //     }
+        //     else {
+        //         console.log("a")
+        //     }
+        //     console.log(1);
+        // })
+        // console.log(catArray);
     }
 
     function getData(url) {
