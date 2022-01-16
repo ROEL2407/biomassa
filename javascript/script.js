@@ -12,11 +12,16 @@
             data.forEach(item => {
                 itemArray.push({
                     name: item.name,
+                    category: item.category,
+                    subcategory: item.subcategory,
+                    functions: item.functions,
                     base: item.base,
                     origin: item.origin
                 });
             });
+            console.log(itemArray);
             showData(itemArray);
+            showCat(itemArray);
     }
 
     function showData(data) {
@@ -30,6 +35,24 @@
             ;
             document.getElementById('wrapper').appendChild(tempItem);
         })
+    }
+
+    function showCat(data) {
+        let catArray = [];
+        const base = 
+        console.log(catArray);
+        data.forEach(item => {
+            const category = item.category;
+            if(!catArray.includes(category)){
+                catArray.push ({
+                    Category: item.category
+                });
+            }
+            else {
+            }
+            console.log(1)
+        })
+        console.log(catArray);
     }
 
     function getData(url) {
