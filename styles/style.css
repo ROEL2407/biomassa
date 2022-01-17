@@ -266,6 +266,11 @@ a {
 .polymers {
     left: 37%;
     top: -45%;
+    /* transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    -moz-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    -o-transform: rotate(330deg); */
 }
 
 .surfactants {
