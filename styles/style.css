@@ -36,6 +36,9 @@ a {
 /* --------------------  end styling reset ------------- */
 
 /* --------------------  Background Hexagon ------------ */
+.background-hex {
+    z-index: -1;
+}
 
 .hexagon {
     position: relative;
@@ -91,9 +94,96 @@ a {
 }
 
 .cat-hexagon p {
+    position: relative;
     z-index: 2;
-    font-size: 17px;
+    font-size: 13px;
     text-align: center;
+}
+
+.cat_title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cat-hexagon .function {
+    list-style-type: none;
+    width: 75%;
+    z-index: 2;
+    font-size: 13px;
+    text-align: center;
+}
+
+.subcat_wrapper {
+    position: relative;
+}
+
+.subcat {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    z-index: 3;
+    border-width: 0 82px 48.2px 82px;
+    border-color: transparent transparent #8b545e transparent;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.subcat:first-of-type {
+    left: 16%;
+    top: -50%;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.subcat:nth-of-type(2) {
+    left: 59%;
+    top: -8%;
+    transform: rotate(59deg);
+    -ms-transform: rotate(59deg);
+    -moz-transform: rotate(59deg);
+    -webkit-transform: rotate(59deg);
+    -o-transform: rotate(59deg);
+    border-color: transparent transparent #bf7181 transparent;
+}
+
+.subcat:nth-of-type(3) {
+    left: 16%;
+    top: -8%;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    border-color: transparent transparent #5c363e transparent;
+}
+
+.subcat:last-of-type {
+    left: 16%;
+    top: -50%;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    border-color: transparent transparent #2e1b1f transparent;
+    color: #fff;
+}
+
+.subcat p {
+    text-align: center;
+    top: 15px;
+    left: -46px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
 }
 
 .polymers:before, .miscellaneous:before,
@@ -255,7 +345,7 @@ a {
 
 .chemical_compounds .dot {
     background-color: #eee2dd;
-    border: 1px solid black;
+    border: 1px solid #000;
 
 }
 
@@ -268,6 +358,6 @@ a {
     width: 8px;
     height: 8px;
     border-radius: 25px;
-    background-color: black;
+    background-color: #000;
     margin-right: 10px;
 }
