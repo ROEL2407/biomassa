@@ -25,19 +25,19 @@ function showCategory(data) {
         tempCat.classList.add(item.class, 'cat-hexagon');
 
         // Adds name of the category and starts the functions list
-        output = '<p class="cat_title">' + item.name + '</p><p>Functions:</p><ul class="function">';
+        output = '<section class="cat_wrapper"><p class="cat_title">' + item.name + '</p><p>Functions:</p><ul class="function">';
         // Checks the amount of functions in the list and puts them on teh screen
         for (let i = 0; i < item.function.length; i++) {
             output += '<li>' + item.function[i] + '</li>'
         };
-        output += '</ul>';
+        output += '</ul></section>';
         // Checks if the name of the category is Polymers, where it counts the amount of subcategories to put on the screen
         if (item.name === "Polymers") {
             output += '<section id="subcat_wrapper">';
             for (let index = 0; index < item.subcat.length; index++) {
                 output += '<div class="subcat"><p>' + item.subcat[index] + '</p></div>'
             };
-            output += '</section';
+            output += '</section>';
         }
         tempCat.innerHTML = output;
 

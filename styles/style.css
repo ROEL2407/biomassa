@@ -93,6 +93,23 @@ a {
     border-right: solid 5px #333333;
 }
 
+.cat-hexagon {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+
+.cat_wrapper {
+    z-index: 2;
+    transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    -moz-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+}
+
 .cat-hexagon p {
     position: relative;
     z-index: 2;
@@ -107,7 +124,6 @@ a {
 
 .cat-hexagon .function {
     list-style-type: none;
-    width: 75%;
     z-index: 2;
     font-size: 13px;
     text-align: center;
@@ -228,6 +244,11 @@ a {
     margin: 57.74px 0;
     border-left: solid 5px #333333;
     border-right: solid 5px #333333;
+    transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    -moz-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
 }
 
 .plasticizers:before, .pigments:before, .ph:before, .surfactants:before, .fillers:before, .solvents:before, .mordants:before, .growth_media:before,
@@ -270,11 +291,6 @@ a {
 .polymers {
     left: 37%;
     top: -45%;
-    /* transform: rotate(330deg);
-    -ms-transform: rotate(330deg);
-    -moz-transform: rotate(330deg);
-    -webkit-transform: rotate(330deg);
-    -o-transform: rotate(330deg); */
 }
 
 .surfactants {
