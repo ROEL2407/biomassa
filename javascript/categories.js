@@ -12,10 +12,10 @@ function getCatData(data) {
         catArray.push({
             name: item.name,
             class: item.class,
-            subcat: item.subcats,
-            function: item.function
+            functions: item.function
         });
     });
+    console.log(catArray);
     showCategory(catArray);
 }
 
@@ -23,26 +23,15 @@ function showCategory(data) {
     data.forEach(item => {
         tempCat = document.createElement('a');
         tempCat.classList.add(item.class, 'cat-hexagon');
-        // Adds name of the category and starts the functions list
-        output = '<p class="cat_title">' + item.name + '</p><p>Functions:</p><ul class="function">';
-        // Checks the amount of functions in the list and puts them on teh screen
-        for (let i = 0; i < item.function.length; i++) {
-            output += '<li>' + item.function[i] +'</li>'
-        };
-        output += '</ul>';
-        // Checks if the name of the category is Polymers, where it counts the amount of subcategories to put on the screen
-        if (item.name === "Polymers") {
-            output += '<section id="subcat_wrapper">';
-            for (let index = 0; index < item.subcat.length; index++) {
-                output += '<div class="subcat"><p>' + item.subcat[index] +'</p></div>'
-            };
-            output += '</section'
-        }
-        tempCat.innerHTML = output; 
-        
+
+        tempCat.innerHTML = '<p>' + item.name + '</p>'
+        // for (let i = 0; index < item.function.length; i++) {
+        //     '<p>' + item.function[i] +'</p>'
+        // };
         document.getElementById('background-hex').appendChild(tempCat);
     })
 }
+
 function getCats(url) {
     // return every fetch
     return fetch(url)
