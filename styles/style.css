@@ -143,35 +143,39 @@ a {
 }
 
 .subcat:nth-of-type(2) {
-    left: 59%;
+    left: 60%;
     top: -8%;
-    transform: rotate(59deg);
-    -ms-transform: rotate(59deg);
-    -moz-transform: rotate(59deg);
-    -webkit-transform: rotate(59deg);
-    -o-transform: rotate(59deg);
+    transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
     border-color: transparent transparent #bf7181 transparent;
 }
 
 .subcat:nth-of-type(3) {
-    left: 16%;
+    left: -28%;
     top: -8%;
-    transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
+    transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
     border-color: transparent transparent #5c363e transparent;
 }
 
+.subcat:nth-of-type(3) p {
+    top: 25px;
+}
+
 .subcat:last-of-type {
-    left: 16%;
-    top: -50%;
-    transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
+    left: -28%;
+    top: 75%;
+    transform: rotate(240deg);
+    -ms-transform: rotate(240deg);
+    -moz-transform: rotate(240deg);
+    -webkit-transform: rotate(240deg);
+    -o-transform: rotate(240deg);
     border-color: transparent transparent #2e1b1f transparent;
     color: #fff;
 }
