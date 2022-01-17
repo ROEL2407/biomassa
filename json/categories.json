@@ -3,60 +3,70 @@
         "id": 0,
         "name":"Polymers",
         "class":"polymers",
-        "function":"['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']"
+        "subcats":["resins", "protein", "polysaccharides", "rubber & elastomers" ],
+        "function":["give strength", "adhesion", "coating", "binder", "growth substrate", "enforcement or scaffold in composites"]
     },
     {
         "id": 1,
         "name":"Plasticizers",
         "class":"plasticizers",
-        "function":"['give flexibility to biopolymer recipes', 'acts as a partial filler as well']"
+        "subcats":"",
+        "function":["give flexibility to biopolymer recipes", "acts as a partial filler as well"]
     },
     {
         "id": 2,
         "name":"Pigments",
         "class":"pigments",
-        "function":"['give color']"
+        "subcats":"",
+        "function":["give color"]
     },
     {
         "id": 3,
         "name":"PH Modifiers",
         "class":"ph",
-        "function":"['change the PH of a liquid']"
+        "subcats":"",
+        "function":["change the PH of a liquid"]
     },
     {
         "id": 4,
         "name":"Surfactants",
         "class":"surfactants",
-        "function":"['change surface tension between liquids', ' emulsifying' , 'foaming']"
+        "subcats":"",
+        "function":["change surface tension between liquids", " emulsifying" , "foaming"]
     },
     {
         "id": 5,
         "name":"Fillers",
         "class":"fillers",
-        "function":"['give extra volume to biopolymers and composites', 'reduces shrinkage']"
+        "subcats":"",
+        "function":["give extra volume to biopolymers and composites", "reduces shrinkage"]
     },
     {
         "id": 6,
         "name":"Solvents & Vehicles",
         "class":"solvents",
-        "function": "['dissolve a substance into a liquid','extract a substance into a liquid']"
+        "subcats":"",
+        "function": ["dissolve a substance into a liquid","extract a substance into a liquid"]
     },
     {
         "id": 7,
         "name":"Mordants, Tannins, Binders, Redox agents",
         "class":"mordants",
-        "function":"['attach pigments to fibre']"
+        "subcats":"",
+        "function":["attach pigments to fibre"]
     },
     {
         "id": 8,
         "name":"Miscellaneous",
         "class":"miscellaneous",
-        "function":"['pH buffer (stabilizes pH)']"
+        "subcats":"",
+        "function":["pH buffer (stabilizes pH)"]
     },
     {
         "id": 9,
         "name":"Growth media",
         "class":"growth_media",
-        "function":"['various functions in microbiological lab work']"
+        "subcats":"",
+        "function":["various functions in microbiological lab work"]
     }
 ]
