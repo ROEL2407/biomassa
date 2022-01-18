@@ -10,7 +10,8 @@ Project<br />
 [Rubric](https://github.com/ROEL2407/biomassa#rubric)<br />
 [Commits](https://github.com/ROEL2407/biomassa#commits)<br />
 [Resources](https://github.com/ROEL2407/biomassa#resources)<br />
-[License](https://github.com/ROEL2407/biomassa#license)
+[License](https://github.com/ROEL2407/biomassa#license)<br />
+[License](https://github.com/ROEL2407/biomassa#live)
 
 ## Where is this repository for?
 This repository is for my lessons from the education Communication and Multimedia Design from the HvA. 
@@ -24,6 +25,9 @@ Download this repository to your own device.
 After that, in my case, use Visual Studio Code. I use the extension Live Server to show the application in the browser.
 
 Put the downloaded repository into Visual Studio Code and use the button go live to show the application in the browser.
+
+## Live
+[Live link](https://biomassa.vercel.app/) 
 
 ## Rubric
 For this assignment I'm being rated on the folllowing points:
