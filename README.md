@@ -27,7 +27,7 @@ Put the downloaded repository into Visual Studio Code and use the button go live
 
 ## Rubric
 For this assignment I'm being rated on the folllowing points:
-<img src="https://github.com/ROEL2407/frontend-data/blob/main/images/rubric2.PNG">
+<img src="https://github.com/ROEL2407/biomassa/blob/main/readme-images/rubric_morph.jpg">
 
 ## Commits
 In this repo I will commit my work. To make this more visible for myself and others I've added little headers to the commit titles:
