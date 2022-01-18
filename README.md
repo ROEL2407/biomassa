@@ -7,11 +7,11 @@ Assignment<br />
 
 Project<br />
 [Installation](https://github.com/ROEL2407/biomassa#installation)<br />
+[Live app](https://github.com/ROEL2407/biomassa#live)<br />
 [Rubric](https://github.com/ROEL2407/biomassa#rubric)<br />
 [Commits](https://github.com/ROEL2407/biomassa#commits)<br />
 [Resources](https://github.com/ROEL2407/biomassa#resources)<br />
-[License](https://github.com/ROEL2407/biomassa#license)<br />
-[License](https://github.com/ROEL2407/biomassa#live)
+[License](https://github.com/ROEL2407/biomassa#license)
 
 ## Where is this repository for?
 This repository is for my lessons from the education Communication and Multimedia Design from the HvA. 
