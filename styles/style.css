@@ -150,11 +150,11 @@ a {
     z-index: 2;
     left: 60%;
     top: -8%;
-    transform: rotate(60deg);
-    -ms-transform: rotate(60deg);
-    -moz-transform: rotate(60deg);
-    -webkit-transform: rotate(60deg);
-    -o-transform: rotate(60deg);
+    transform: rotate(60.5deg);
+    -ms-transform: rotate(60.5deg);
+    -moz-transform: rotate(60.5deg);
+    -webkit-transform: rotate(60.5deg);
+    -o-transform: rotate(60.5deg);
     border-color: transparent transparent #bf7181 transparent;
 }
 
@@ -397,3 +397,16 @@ a {
 /* -------- end bottom categories --------- */
 
 /* --------------------  end categories Hexagon ------------ */
+
+.info-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    left: 35%;
+    top:27.5%;
+    border: 1px solid black;
+}
