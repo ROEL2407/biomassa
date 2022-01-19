@@ -36,44 +36,23 @@ a {
 /* --------------------  end styling reset ------------- */
 
 /* --------------------  Background Hexagon ------------ */
+#svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+}
+
 .background-hex {
     z-index: -1;
 }
 
 .hexagon {
     position: relative;
-    width: 1000px;
+    top: 280px;
+    max-width: 1000px;
     height: 577.35px;
-    background-color: #ffffff;
     margin: 300px auto;
-    border-left: solid 5px #333333;
-    border-right: solid 5px #333333;
-}
-
-.hexagon:before,
-.hexagon:after {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    width: 707.11px;
-    height: 707.11px;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background-color: inherit;
-    left: 141.4466px;
-}
-
-.hexagon:before {
-    top: -353.5534px;
-    border-top: solid 7.0711px #333333;
-    border-right: solid 7.0711px #333333;
-}
-
-.hexagon:after {
-    bottom: -353.5534px;
-    border-bottom: solid 7.0711px #333333;
-    border-left: solid 7.0711px #333333;
 }
 
 /* --------------------  end Background Hexagon ------------ */
