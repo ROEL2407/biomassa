@@ -43,6 +43,10 @@ a {
     z-index: -5;
 }
 
+#svg svg {
+    width: 100vw;
+}
+
 .background-hex {
     z-index: -1;
 }
