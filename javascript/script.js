@@ -24,16 +24,16 @@
     }
 
     function showData(data) {
-        data.forEach(item => {
-            tempItem = document.createElement('section');
-            tempItem.classList.add(item.base, 'item');
+        // data.forEach(item => {
+        //     tempItem = document.createElement('section');
+        //     tempItem.classList.add(item.base, 'item');
             
-            tempItem.innerHTML = `<div class="dot" ></div>
-            <p>` + item.name + '</p>';
+        //     tempItem.innerHTML = `<div class="dot" ></div>
+        //     <p>` + item.name + '</p>';
             
-            ;
-            document.getElementById('wrapper').appendChild(tempItem);
-        })
+        //     ;
+        //     document.getElementById('wrapper').appendChild(tempItem);
+        // })
     }
 
     function showCat(data) {
