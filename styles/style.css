@@ -114,6 +114,10 @@ body {
     font-weight: bold;
 }
 
+.pigments .cat_title {
+    width: 100%;
+}
+
 .cat-hexagon .function {
     list-style-type: none;
     z-index: 2;
