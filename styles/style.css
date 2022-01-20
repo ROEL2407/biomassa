@@ -77,8 +77,8 @@ body {
     height: 144.34px;
     background-color: #ffffff;
     margin: 72.17px 0;
-    border-left: solid 5px #333333;
-    border-right: solid 5px #333333;
+    border-left: solid 3px #881e24;
+    border-right: solid 3px #881e24;
 }
 
 .cat-hexagon {
@@ -146,7 +146,7 @@ body {
 
 .subcat:first-of-type {
     left: 16%;
-    top: -50%;
+    top: -51%;
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -223,15 +223,15 @@ body {
 .polymers:before,
 .miscellaneous:before {
     top: -88.3883px;
-    border-top: solid 7.0711px #333333;
-    border-right: solid 7.0711px #333333;
+    border-top: solid 4.2426px #881e24;
+    border-right: solid 4.2426px #881e24;
 }
 
 .polymers:after,
 .miscellaneous:after {
     bottom: -88.3883px;
-    border-bottom: solid 7.0711px #333333;
-    border-left: solid 7.0711px #333333;
+    border-bottom: solid 4.2426px #881e24;
+    border-left: solid 4.2426px #881e24;
 }
 
 .plasticizers,
@@ -242,17 +242,17 @@ body {
 .solvents,
 .mordants,
 .growth_media {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     width: 200px;
     height: 115.47px;
     background-color: #ffffff;
     margin: 57.74px 0;
-    border-left: solid 5px #333333;
-    border-right: solid 5px #333333;
+    border-left: solid 3px #881e24;
+    border-right: solid 3px #881e24;
     transform: rotate(330deg);
     -ms-transform: rotate(330deg);
     -moz-transform: rotate(330deg);
@@ -302,7 +302,7 @@ body {
     -ms-transform: scaleY(0.5774) rotate(-45deg);
     transform: scaleY(0.5774) rotate(-45deg);
     background-color: inherit;
-    left: 24.2893px;
+    left: 26.2893px;
 }
 
 .plasticizers:before,
@@ -314,8 +314,8 @@ body {
 .mordants:before,
 .growth_media:before {
     top: -70.7107px;
-    border-top: solid 7.0711px #333333;
-    border-right: solid 7.0711px #333333;
+    border-top: solid 4.2426px #881e24;
+    border-right: solid 4.2426px #881e24;
 }
 
 .plasticizers:after,
@@ -327,8 +327,8 @@ body {
 .mordants:after,
 .growth_media:after {
     bottom: -70.7107px;
-    border-bottom: solid 7.0711px #333333;
-    border-left: solid 7.0711px #333333;
+    border-bottom: solid 4.2426px #881e24;
+    border-left: solid 4.2426px #881e24;
 }
 
 .polymers,
