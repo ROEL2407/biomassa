@@ -5,6 +5,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['cotton', 'linen', 'hemp', 'jute flax', 'ramie', 'pineapple', 'kenaf', 'abaca', 'henequen', 'wood', 'most plants']"
     },
     {
@@ -13,6 +14,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['(peels of) apples', 'apricots', 'cherries', 'passion', 'fruit', 'carrot', 'citrus fruits', 'rose hips', 'guava', 'quince', 'plums', 'gooseberries', 'strawberries', 'bananas', 'grapes']"
     },
     {
@@ -21,6 +23,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['green beans', 'rice straws']"
     },
     {
@@ -29,6 +32,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['corn', 'wheat', 'rice', 'tapioca', 'potato', 'cassava']"
     },
     {
@@ -37,6 +41,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['wood', 'bark', 'plant stems', 'potato tubers', 'rice straws', 'jute', 'hemp', 'cotton', 'wheat straw', 'pine straw', 'flax fibre', 'alfalfa',]"
     },
     {
@@ -45,6 +50,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['gum arabic', 'tara gum', 'guar gum']"
     },
     {
@@ -53,6 +59,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['acetobacter xylinum (kombucha)', 'mycelium']"
     },
     {
@@ -61,6 +68,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['xanthan', 'gellan', 'bacterial alginate (azotiobacter vinelandii)']"
     },
     {
@@ -69,6 +77,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['alginate', 'agar', 'carrageenan']"
     },
     {
@@ -77,6 +86,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['PLA (corn)']"
     },
     {
@@ -85,6 +95,7 @@
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['Carboxy Methyl Cellulose (CMC)', 'Methyl Cellulose (MC)']"
     },
     {
@@ -93,6 +104,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "animal",
+      "wiki": "",
       "origin": "['blood', 'beef', 'eggs']"
     },
     {
@@ -101,6 +113,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "animal",
+      "wiki": "",
       "origin": "['silk', 'spider silk']"
     },
     {
@@ -109,6 +122,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "animal",
+      "wiki": "",
       "origin": "['wool', 'hair', 'nails', 'feathers', 'fur']"
     },
     {
@@ -117,6 +131,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "animal",
+      "wiki": "",
       "origin": "['protein found in blood']"
     },
     {
@@ -125,6 +140,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "animal",
+      "wiki": "",
       "origin": "['exoskeletons of crustaceans', 'crabs', 'shrimps']"
     },
     {
@@ -133,6 +149,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "animal",
+      "wiki": "",
       "origin": "['gelatin', 'skin', 'bones', 'connective tissue of chicken', 'connective tissue of pig', 'connective tissue of fish', 'connective tissue of cow']"
     },
     {
@@ -141,6 +158,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "animal",
+      "wiki": "",
       "origin": "['milk']"
     },
     {
@@ -149,6 +167,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['wheat', 'barley', 'rye', 'oats', 'spelt', 'khorasan', 'emmer', 'einkorn', 'triticale']"
     },
     {
@@ -157,6 +176,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['corn']"
     },
     {
@@ -165,6 +185,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['soy beans']"
     },
     {
@@ -173,6 +194,7 @@
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['fungal mycelium']"
     },
     {
@@ -181,6 +203,7 @@
       "subcategory": "resins",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "animal",
+      "wiki": "",
       "origin": "['shellac'']"
     },
     {
@@ -189,6 +212,7 @@
       "subcategory": "resins",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['copal', 'kauri gum', 'turpentine', 'spinifex', 'sandarac', 'cabdanum', 'mastic', 'urushi', 'arabic gum']"
     },
     {
@@ -197,6 +221,7 @@
       "subcategory": "resins",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "petrol-based",
+      "wiki": "",
       "origin": "['']"
     },
     {
@@ -205,6 +230,7 @@
       "subcategory": "elastomers & rubbers",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "plants",
+      "wiki": "",
       "origin": "['latex']"
     },
     {
@@ -213,6 +239,7 @@
       "subcategory": "elastomers & rubbers",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
       "base": "petrol-based",
+      "wiki": "",
       "origin": "['synthetic latex']"
     },
     {
@@ -221,6 +248,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "animal",
+      "wiki": "",
       "origin": "['animal glycerine (cow, sheep)']"
     },
     {
@@ -229,6 +257,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "animal",
+      "wiki": "",
       "origin": "['urine']"
     },
     {
@@ -237,6 +266,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "animal",
+      "wiki": "",
       "origin": "['bees wax']"
     },
     {
@@ -245,6 +275,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "animal",
+      "wiki": "",
       "origin": "['honey']"
     },
     {
@@ -253,6 +284,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "plants",
+      "wiki": "",
       "origin": "['vegetable glycerine (soy, palm, coconut)']"
     },
     {
@@ -261,6 +293,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "plants",
+      "wiki": "",
       "origin": "['soy']"
     },
     {
@@ -269,6 +302,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "plants",
+      "wiki": "",
       "origin": "['candellila', 'carnauba']"
     },
     {
@@ -277,6 +311,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "plants",
+      "wiki": "",
       "origin": "['glucose', 'mannose', 'fructose', 'sucrose']"
     },
     {
@@ -285,6 +320,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "plants",
+      "wiki": "",
       "origin": "['sunflower oil', 'rice oil']"
     },
     {
@@ -293,6 +329,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['microbial glycerine (yeast , algae)', 'sugar alcohols']"
     },
     {
@@ -301,6 +338,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['water']"
     },
     {
@@ -309,6 +347,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['sorbitol', 'mannitol', 'xylitol', 'ethylene- diethylene- triethylene, - tetraethylene and polyethylene glycol', 'propylene glycol']"
     },
     {
@@ -317,6 +356,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['soap', 'glycerol monostearate']"
     },
     {
@@ -325,6 +365,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "petrol-based",
+      "wiki": "",
       "origin": "['petroleum-based glycerine']"
     },
     {
@@ -333,6 +374,7 @@
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
       "base": "petrol-based",
+      "wiki": "",
       "origin": "['paraffine (petrol)']"
     },
     {
@@ -341,6 +383,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "plants",
+      "wiki": "",
       "origin": "['campeche', 'brazilwood', 'old fustic', 'sandalwood', 'birch', 'chestnut', 'acacia (cutch)', 'bixa orellana (annatto)', 'terminalia chebula (murobalan nuts)', 'oak bark', 'pine (branches)', 'quebracho', 'walnut (leaves)', buckthorn (bark)']"
     },
    
@@ -350,6 +393,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "plants",
+      "wiki": "",
       "origin": "['alkanet', 'turmeric root', 'onion skin', 'madder', 'oak/wasp/cherry galls', 'avocado stones and skin', 'grape black', 'sap green', 'black beans', 'henna', mahonia aquifolia (branches)', 'marigold', 'pomegranate (rind)', 'indigo tinctoria', 'woad', 'weld', 'goldenrod', 'rhubarb (roots)', 'saint john's wort', 'chamomile', ' coreopsis', 'saw wort', eucalyptus', 'safflower', 'greenweed']"
     },
     {
@@ -358,6 +402,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "plants",
+      "wiki": "",
       "origin": "['e.g. phaeolus schweinitzii', 'hypholoma fasciculare', 'scleroderma aerolatum', 'cortinarius (semi)sanguineus', 'hapalopilus rutilans', 'paxillus involutus', 'inonotus hispidus', 'hydnellum geogenium', 'sarcodon squamosus', 'polyozellus multiplex', 'clavariadelphus occidentalis', 'gyromitra infula', 'anthracophyllum lateritium', 'cortinarius marylandensis']"
     },
     {
@@ -366,6 +411,7 @@
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
       "base": "plants",
+      "wiki": "",
       "origin": "['hibiscus flowers', 'fruit (lemon) juice']"
     },
     {
@@ -374,6 +420,7 @@
       "subcategory": "",
       "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
       "base": "plants",
+      "wiki": "",
       "origin": "['stems', 'leaves', 'sawdust', 'glycerine']"
     },
     {
@@ -382,6 +429,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['chlorella', 'arthrospiria platensis (spirulina)', 'bioluminescent dinaflagellates', 'haematococcus pluvialis', 'porphyridium purpureum', 'dunaliella salina']"
     },
    
@@ -391,6 +439,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['serratia marcescens', 'rhodococcus rhodochrous', 'janthinobacterium lividum', 'vogesella indigofera', 'micrococcus luteus', 'sarcina aurantiaca', 'arthrobacter agilis', 'monascus roseus', 'streptomyces coelicolor', 'kluyveromyces marxianus', 'burkholderia cepacia', 'pacilmyces farinosus', 'allochromatum vinosum']"
     },
     {
@@ -399,6 +448,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['monascus purpureus', 'chlorociboria aeruginascens']"
     },
     {
@@ -407,6 +457,7 @@
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['vinegar']"
     },
     {
@@ -415,6 +466,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['ochre' , 'sienna' , 'umber' , 'green earth']"
     },
     {
@@ -423,6 +475,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['e.g. lapis lazuli']"
     },
     {
@@ -431,6 +484,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['e.g. vicenza earth, 'azurite' , 'turkoise']"
     },
     {
@@ -439,6 +493,7 @@
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['chalk' , 'slaked lime']"
     },
     {
@@ -447,6 +502,7 @@
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['sodium carbonate' , 'sodium bicarbonate' , 'calcium carbonate' , 'ammonia']"
     },
     {
@@ -455,6 +511,7 @@
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['citric acid' , 'cream of tartar' , alum']"
     },
     {
@@ -463,6 +520,7 @@
       "subcategory": "",
       "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['calcium carbonate' , 'activated coal']"
     },
     {
@@ -471,6 +529,7 @@
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['hand soap' , 'dishwashing soap']"
     },
     {
@@ -479,6 +538,7 @@
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['methylated spirit (NL: spiritus)']"
     },
     {
@@ -487,6 +547,7 @@
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['glycerol monostearate']"
     },
     {
@@ -495,6 +556,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "animal",
+      "wiki": "",
       "origin": "['cochineal and lac insects', 'octopus ink (sepia)', 'murex snail, 'blood', 'bone black', 'egg shells']"
     },
     {
@@ -503,6 +565,7 @@
       "subcategory": "",
       "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
       "base": "animal",
+      "wiki": "",
       "origin": "['egg shells', 'hair' , 'fur', 'feathers', 'bones']"
     },
     {
@@ -511,6 +574,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['ochre' , 'sienna' , 'umber' , 'green earth']"
     },
     {
@@ -519,6 +583,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['e.g. lapis lazuli']"
     },
     {
@@ -527,6 +592,7 @@
       "subcategory": "",
       "functions": "['give color']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['e.g. vicenza earth, 'azurite' , 'turkoise']"
     },
     {
@@ -535,6 +601,7 @@
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['alum']"
     },
     {
@@ -543,6 +610,7 @@
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['glycerol monostearate']"
     },
     {
@@ -551,6 +619,7 @@
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
       "base": "plants",
+      "wiki": "",
       "origin": "['sunflower oil','rice oil','linseed oil']"
     },
     {
@@ -559,6 +628,7 @@
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['vinegar','cleaning vinegar']"
     },
     {
@@ -567,6 +637,7 @@
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['hot/cold','rainwater','distilled water','tap water']"
     },
     {
@@ -575,6 +646,7 @@
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['citric acid']"
     },
     {
@@ -583,6 +655,7 @@
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['ethanol','isopropyl alcohol','diethyl ether']"
     },
     {
@@ -591,6 +664,7 @@
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['aceton']"
     },
    
@@ -600,6 +674,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "animal",
+      "wiki": "",
       "origin": "['brains', 'urine']"
     },
     {
@@ -608,6 +683,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "animal",
+      "wiki": "",
       "origin": "['milk']"
     },
     {
@@ -616,6 +692,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "animal",
+      "wiki": "",
       "origin": "['urine']"
     },
     {
@@ -624,6 +701,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "plants",
+      "wiki": "",
       "origin": "['oak bark', 'birch bark', 'mango bark', 'cutch', 'terminalia chebula (myrobalan nuts)', 'quebracho']"
     },
     {
@@ -632,6 +710,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "plants",
+      "wiki": "",
       "origin": "['chestnuts', 'tea', 'juniper', 'rhubarb', 'staghorn sumac', 'pomegranate', 'aloe vera', 'acorns', 'oak galls', 'tara pulver', 'rhubarb leaves']"
     },
     {
@@ -640,6 +719,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "plants",
+      "wiki": "",
       "origin": "['vegetable milk (e.g. soy milk, almond, oats)']"
     },
     {
@@ -648,6 +728,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "plants",
+      "wiki": "",
       "origin": "['symplocos', 'club moss', 'rhubarb leaves (animal fibers - oxalic acid)']"
     },
     {
@@ -656,6 +737,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "plants",
+      "wiki": "",
       "origin": "['wood ash lye']"
     },
     {
@@ -664,6 +746,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['sugar', 'yeast']"
     },
     {
@@ -672,6 +755,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['alum (potassium aluminium sulfate)']"
     },
     {
@@ -680,6 +764,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['copper (copper sulfate)', 'iron (iron sulfate)']"
     },
     {
@@ -688,6 +773,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['sodium hydrosulphate', 'sodium hydroxide', 'ferrous sulfate']"
     },
     {
@@ -696,6 +782,7 @@
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['alum (alum, potassium aluminium sulfate dodecahydrate, alum potash)', 'aluminium acetate']"
     },
     {
@@ -704,6 +791,7 @@
       "subcategory": "",
       "functions": "['pH buffer (stabilizes pH)']",
       "base": "animal",
+      "wiki": "",
       "origin": "['sea shells','mussel shells','egg shells']"
     },
     {
@@ -712,6 +800,7 @@
       "subcategory": "",
       "functions": "['crosslinker']",
       "base": "plants",
+      "wiki": "",
       "origin": "['lemon juice (for starches)','orange juice (for alginate)']"
     },
     {
@@ -720,6 +809,7 @@
       "subcategory": "",
       "functions": "['crosslinker']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['vinegar (for starches)']"
     },
     {
@@ -728,6 +818,7 @@
       "subcategory": "",
       "functions": "['disinfectant']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['denatured alcohol 70%']"
     },
     {
@@ -736,6 +827,7 @@
       "subcategory": "",
       "functions": "['pH buffer (stabilizes pH)']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['chalk','gypsum']"
     },
     {
@@ -744,6 +836,7 @@
       "subcategory": "",
       "functions": "['crosslinker']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['calcium chloride (for alginate)','citric acid (for starches)']"
     },
     {
@@ -752,6 +845,7 @@
       "subcategory": "",
       "functions": "['pH buffer (stabilizes pH)']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['calcium carbonate','calcium hydroxide']"
     },
     {
@@ -760,6 +854,7 @@
       "subcategory": "",
       "functions": "['disinfectant']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['hypocholorite bleach (10% solution)']"
     },
     {
@@ -768,6 +863,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "animal",
+      "wiki": "",
       "origin": "['gelatine']"
     },
     {
@@ -776,6 +872,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "animal",
+      "wiki": "",
       "origin": "['peptone', 'tryptone beef broth', 'meat extract']"
     },
     {
@@ -784,6 +881,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "animal",
+      "wiki": "",
       "origin": "['honey', 'peptone']"
     },
     {
@@ -792,6 +890,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "animal",
+      "wiki": "",
       "origin": "['peptone']"
     },
     {
@@ -800,6 +899,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "animal",
+      "wiki": "",
       "origin": "['peptone']"
     },
     {
@@ -808,6 +908,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "animal",
+      "wiki": "",
       "origin": "['petone']"
     },
     {
@@ -816,6 +917,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "animal",
+      "wiki": "",
       "origin": "['beef extract', 'meat extract']"
     },
     {
@@ -824,6 +926,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "plants",
+      "wiki": "",
       "origin": "['vegetable peptone']"
     },
     {
@@ -832,6 +935,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "plants",
+      "wiki": "",
       "origin": "['vegetable peptone', 'starches', 'dextrose', 'maltose', 'glycerine', 'malt extract', 'glucose', 'dextrose', 'corn syrup', 'sugar', 'potato']"
     },
     {
@@ -840,6 +944,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "plants",
+      "wiki": "",
       "origin": "['vegetable peptone']"
     },
     {
@@ -848,6 +953,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "plants",
+      "wiki": "",
       "origin": "['vegetable peptone']"
     },
     {
@@ -856,6 +962,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "plants",
+      "wiki": "",
       "origin": "['vegetable peptone']"
     },
     {
@@ -864,6 +971,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['yeast']"
     },
     {
@@ -872,6 +980,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "microbial",
+      "wiki": "",
       "origin": "['agar']"
     },
     {
@@ -880,6 +989,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "inorganic",
+      "wiki": "",
       "origin": "['salt', 'glycerol', 'mannitol', 'gypsum', 'calcium carbonate']"
     },
     {
@@ -888,6 +998,7 @@
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
       "base": "chemical_compounds",
+      "wiki": "",
       "origin": "['citric acid', 'tartaric acid (acidic)', 'sodium hydroxide (alkaline)']"
     }
   ]
