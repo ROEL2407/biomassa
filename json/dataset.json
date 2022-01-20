@@ -1,6 +1,7 @@
 [
     {
       "name": "cellulose",
+      "stylingId": "cellulose",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -10,6 +11,7 @@
     },
     {
       "name": "pectin",
+      "stylingId": "pectin",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -19,6 +21,7 @@
     },
     {
       "name": "hemi-cellulose",
+      "stylingId": "hemi-cellulose",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -28,6 +31,7 @@
     },
     {
       "name": "starches",
+      "stylingId": "starches",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -37,6 +41,7 @@
     },
     {
       "name": "lignin",
+      "stylingId": "lignin",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -46,6 +51,7 @@
     },
     {
       "name": "gums",
+      "stylingId": "gums",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -55,6 +61,7 @@
     },
     {
       "name": "cellulose",
+      "stylingId": "cellulose_polymers",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -64,6 +71,7 @@
     },
     {
       "name": "gums (bacteria)",
+      "stylingId": "gums_(bacteria)",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -73,6 +81,7 @@
     },
     {
       "name": "gums (algae)",
+      "stylingId": "gums_(algae)",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -82,6 +91,7 @@
     },
     {
       "name": "fermented biomass",
+      "stylingId": "fermented_biomass",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -91,6 +101,7 @@
     },
     {
       "name": "chemically modified cellulose",
+      "stylingId": "chemically_modified_cellulose",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -100,6 +111,7 @@
     },
     {
       "name": "albumin",
+      "stylingId": "albumin",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -109,6 +121,7 @@
     },
     {
       "name": "silk",
+      "stylingId": "silk",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -118,6 +131,7 @@
     },
     {
       "name": "keratin",
+      "stylingId": "keratin",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -127,6 +141,7 @@
     },
     {
       "name": "fibrin",
+      "stylingId": "fibrin",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -136,6 +151,7 @@
     },
     {
       "name": "chitin animal",
+      "stylingId": "chitin_animal",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -145,6 +161,7 @@
     },
     {
       "name": "collagen",
+      "stylingId": "collagen",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -154,6 +171,7 @@
     },
     {
       "name": "casein",
+      "stylingId": "casein",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -163,6 +181,7 @@
     },
     {
       "name": "gluten",
+      "stylingId": "gluten",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -172,6 +191,7 @@
     },
     {
       "name": "zein",
+      "stylingId": "zein",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -181,6 +201,7 @@
     },
     {
       "name": "soy",
+      "stylingId": "soy",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -190,6 +211,7 @@
     },
     {
       "name": "chitin (fungal)",
+      "stylingId": "chitin_(fungal)",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -199,6 +221,7 @@
     },
     {
       "name": "resin animal",
+      "stylingId": "resin_animal",
       "category": "polymers",
       "subcategory": "resins",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -208,6 +231,7 @@
     },
     {
       "name": "resin plant",
+      "stylingId": "resin_plant",
       "category": "polymers",
       "subcategory": "resins",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -217,6 +241,7 @@
     },
     {
       "name": "petrol-based resins",
+      "stylingId": "petrol-based_resins",
       "category": "polymers",
       "subcategory": "resins",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -226,6 +251,7 @@
     },
     {
       "name": "elastomer (plant)",
+      "stylingId": "elastomer_(plant)",
       "category": "polymers",
       "subcategory": "elastomers & rubbers",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -235,6 +261,7 @@
     },
     {
       "name": "elastomer (synthetic)",
+      "stylingId": "elastomer_(synthetic)",
       "category": "polymers",
       "subcategory": "elastomers & rubbers",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -244,6 +271,7 @@
     },
     {
       "name": "poylols",
+      "stylingId": "poylols_animal",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -253,6 +281,7 @@
     },
     {
       "name": "urea",
+      "stylingId": "urea",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -262,6 +291,7 @@
     },
     {
       "name": "waxes",
+      "stylingId": "waxes",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -271,6 +301,7 @@
     },
     {
       "name": "other",
+      "stylingId": "other",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -280,6 +311,7 @@
     },
     {
       "name": "poylols",
+      "stylingId": "poylols_plant",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -289,6 +321,7 @@
     },
     {
       "name": "lecithin",
+      "stylingId": "lecithin",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -298,6 +331,7 @@
     },
     {
       "name": "waxes",
+      "stylingId": "waxes",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -307,6 +341,7 @@
     },
     {
       "name": "monosaccharides",
+      "stylingId": "monosaccharides",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -316,6 +351,7 @@
     },
     {
       "name": "vegetable oils",
+      "stylingId": "vegetable_oils",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -325,6 +361,7 @@
     },
     {
       "name": "poylols",
+      "stylingId": "poylols_micro",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -334,6 +371,7 @@
     },
     {
       "name": "water",
+      "stylingId": "water",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -343,6 +381,7 @@
     },
     {
       "name": "poypols",
+      "stylingId": "poypols_plast2",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -352,6 +391,7 @@
     },
     {
       "name": "surfactants",
+      "stylingId": "surfactants",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -361,6 +401,7 @@
     },
     {
       "name": "poylols",
+      "stylingId": "poylols_petrol",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -370,6 +411,7 @@
     },
     {
       "name": "waxes & paraffines",
+      "stylingId": "waxes_paraffines",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -379,6 +421,7 @@
     },
     {
       "name": "tree",
+      "stylingId": "tree",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -389,6 +432,7 @@
    
     {
       "name": "plant",
+      "stylingId": "plant_pigment",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -398,6 +442,7 @@
     },
     {
       "name": "fungi",
+      "stylingId": "fungi",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -407,6 +452,7 @@
     },
     {
       "name": "acidic",
+      "stylingId": "acidic_plants",
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
@@ -416,6 +462,7 @@
     },
     {
       "name": "plants",
+      "stylingId": "plants_filler",
       "category": "fillers",
       "subcategory": "",
       "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
@@ -425,6 +472,7 @@
     },
     {
       "name": "micro-algae",
+      "stylingId": "micro-algae",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -435,6 +483,7 @@
    
     {
       "name": "bacteria",
+      "stylingId": "bacteria",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -444,6 +493,7 @@
     },
     {
       "name": "fungi & yeast",
+      "stylingId": "fungi_yeast",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -453,6 +503,7 @@
     },
     {
       "name": "acidic",
+      "stylingId": "acidic_micro",
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
@@ -462,6 +513,7 @@
     },
     {
       "name": "clays & earth",
+      "stylingId": "clays_earth",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -471,6 +523,7 @@
     },
     {
       "name": "rocks",
+      "stylingId": "rocks",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -480,6 +533,7 @@
     },
     {
       "name": "minerals",
+      "stylingId": "minerals",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -489,6 +543,7 @@
     },
     {
       "name": "alkaline",
+      "stylingId": "alkaline_inorganic",
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
@@ -498,6 +553,7 @@
     },
     {
       "name": "alkaline",
+      "stylingId": "alkaline_chem",
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
@@ -507,6 +563,7 @@
     },
     {
       "name": "acidic",
+      "stylingId": "acidic_chem",
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
@@ -516,6 +573,7 @@
     },
     {
       "name": "powders",
+      "stylingId": "powders",
       "category": "fillers",
       "subcategory": "",
       "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
@@ -525,6 +583,7 @@
     },
     {
       "name": "detergents",
+      "stylingId": "detergents",
       "category": "surfactants",
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
@@ -534,6 +593,7 @@
     },
     {
       "name": "alcohols",
+      "stylingId": "alcohols",
       "category": "surfactants",
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
@@ -543,6 +603,7 @@
     },
     {
       "name": "monoglycerides",
+      "stylingId": "monoglycerides",
       "category": "surfactants",
       "subcategory": "",
       "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
@@ -552,6 +613,7 @@
     },
     {
       "name": "animal",
+      "stylingId": "animal_pigment",
       "category": "pigments",
       "subcategory": "",
       "functions": "['give color']",
@@ -561,6 +623,7 @@
     },
     {
       "name": "animal",
+      "stylingId": "animal_filler",
       "category": "fillers",
       "subcategory": "",
       "functions": "['give extra volume to biopolymers and composites', 'reduces shrinkage']",
@@ -569,34 +632,8 @@
       "origin": "['egg shells', 'hair' , 'fur', 'feathers', 'bones']"
     },
     {
-      "name": "clays & earth",
-      "category": "pigments",
-      "subcategory": "",
-      "functions": "['give color']",
-      "base": "inorganic",
-      "wiki": "",
-      "origin": "['ochre' , 'sienna' , 'umber' , 'green earth']"
-    },
-    {
-      "name": "rocks",
-      "category": "pigments",
-      "subcategory": "",
-      "functions": "['give color']",
-      "base": "inorganic",
-      "wiki": "",
-      "origin": "['e.g. lapis lazuli']"
-    },
-    {
-      "name": "minerals",
-      "category": "pigments",
-      "subcategory": "",
-      "functions": "['give color']",
-      "base": "inorganic",
-      "wiki": "",
-      "origin": "['e.g. vicenza earth, 'azurite' , 'turkoise']"
-    },
-    {
       "name": "acidic",
+      "stylingId": "acidic_inorganic",
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
@@ -605,16 +642,8 @@
       "origin": "['alum']"
     },
     {
-      "name": "monoglycerides",
-      "category": "surfactants",
-      "subcategory": "",
-      "functions": "['change surface tension between liquids', ' emulsifying' , 'foaming']",
-      "base": "chemical_compounds",
-      "wiki": "",
-      "origin": "['glycerol monostearate']"
-    },
-    {
       "name": "oils",
+      "stylingId": "oils",
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
@@ -624,6 +653,7 @@
     },
     {
       "name": "acidic solvent",
+      "stylingId": "acidic_solvent",
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
@@ -633,6 +663,7 @@
     },
     {
       "name": "water",
+      "stylingId": "water_solvents",
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
@@ -642,6 +673,7 @@
     },
     {
       "name": "acidic solvent",
+      "stylingId": "acidic_solvent_chem",
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
@@ -651,6 +683,7 @@
     },
     {
       "name": "alcohols",
+      "stylingId": "alcohols_solvents",
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
@@ -660,6 +693,7 @@
     },
     {
       "name": "ketones",
+      "stylingId": "ketones",
       "category": "solvents and vehicles",
       "subcategory": "",
       "functions": "['dissolve a substance into a liquid','extract a substance into a liquid']",
@@ -670,6 +704,7 @@
    
     {
       "name": "tannins (animal)",
+      "stylingId": "tannins_animal",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -679,6 +714,7 @@
     },
     {
       "name": "binder (animal)",
+      "stylingId": "binder_animal",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -688,6 +724,7 @@
     },
     {
       "name": "reduction agent for indigo",
+      "stylingId": "reduction_agent_indigo",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -697,6 +734,7 @@
     },
     {
       "name": "tannins (wood)",
+      "stylingId": "tannins_wood",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -706,6 +744,7 @@
     },
     {
       "name": "tannins (plants)",
+      "stylingId": "tannins_plants",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -715,6 +754,7 @@
     },
     {
       "name": "binder (plants)",
+      "stylingId": "binder_plants",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -724,6 +764,7 @@
     },
     {
       "name": "mordant",
+      "stylingId": "mordant",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -733,6 +774,7 @@
     },
     {
       "name": "reduction & oxidation (redox for indigo dye)",
+      "stylingId": "reduct_indigo_plants",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -742,6 +784,7 @@
     },
     {
       "name": "reduction & oxidation (redox for indigo dye)",
+      "stylingId": "reduct_indigo_micro",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -751,6 +794,7 @@
     },
     {
       "name": "mineral mordants",
+      "stylingId": "mineral_mordants",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -760,6 +804,7 @@
     },
     {
       "name": "metal mordants",
+      "stylingId": "metal_mordants",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -769,6 +814,7 @@
     },
     {
       "name": "reduction & oxidation (redox for indigo dye)",
+      "stylingId": "reduct_indigo_inorganic",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -778,6 +824,7 @@
     },
     {
       "name": "chemical mordants",
+      "stylingId": "chemical_mordants",
       "category": "mordants, tannins, binders, redox agents",
       "subcategory": "",
       "functions": "['attach pigments to fibre']",
@@ -787,6 +834,7 @@
     },
     {
       "name": "pH buffer",
+      "stylingId": "pH_buffer_animal",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['pH buffer (stabilizes pH)']",
@@ -796,6 +844,7 @@
     },
     {
       "name": "crosslinker",
+      "stylingId": "crosslinker_plants",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['crosslinker']",
@@ -805,6 +854,7 @@
     },
     {
       "name": "crosslinker",
+      "stylingId": "crosslinker_micro",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['crosslinker']",
@@ -814,6 +864,7 @@
     },
     {
       "name": "disinfectant",
+      "stylingId": "disinfectant_micro",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['disinfectant']",
@@ -823,6 +874,7 @@
     },
     {
       "name": "pH buffers",
+      "stylingId": "pH_buffers_inorganic",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['pH buffer (stabilizes pH)']",
@@ -832,6 +884,7 @@
     },
     {
       "name": "crosslinker",
+      "stylingId": "crosslinker_chem",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['crosslinker']",
@@ -841,6 +894,7 @@
     },
     {
       "name": "pH buffers",
+      "stylingId": "pH_buffers_chem",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['pH buffer (stabilizes pH)']",
@@ -850,6 +904,7 @@
     },
     {
       "name": "disinfectant",
+      "stylingId": "disinfectant_chem",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "['disinfectant']",
@@ -859,6 +914,7 @@
     },
     {
       "name": "solidifying agent",
+      "stylingId": "solidifying_agent",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -868,6 +924,7 @@
     },
     {
       "name": "protein",
+      "stylingId": "protein_animal",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -877,6 +934,7 @@
     },
     {
       "name": "carbon (sugars)",
+      "stylingId": "carbon_sugars_plants",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -886,6 +944,7 @@
     },
     {
       "name": "pH buffer",
+      "stylingId": "pH_buffer_animal_growth",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -895,6 +954,7 @@
     },
     {
       "name": "nitrogen",
+      "stylingId": "nitrogen_animal",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -904,6 +964,7 @@
     },
     {
       "name": "sulfur",
+      "stylingId": "sulfur_animal",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -913,6 +974,7 @@
     },
     {
       "name": "enzyme exciters (e.g. vitamin B)",
+      "stylingId": "enzyme_exciters_animal",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -922,6 +984,7 @@
     },
     {
       "name": "protein",
+      "stylingId": "protein_plants",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -931,6 +994,7 @@
     },
     {
       "name": "carbon (sugars)",
+      "stylingId": "carbon_sugars_plants",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -940,6 +1004,7 @@
     },
     {
       "name": "pH buffer",
+      "stylingId": "pH_buffer_plants",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -949,6 +1014,7 @@
     },
     {
       "name": "nitrogen",
+      "stylingId": "nitrogen_plants",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -958,6 +1024,7 @@
     },
     {
       "name": "sulfur",
+      "stylingId": "sulfur_plants",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -967,6 +1034,7 @@
     },
     {
       "name": "enzyme exciters (e.g. vitamin B)",
+      "stylingId": "enzyme_exciters_micro",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -976,6 +1044,7 @@
     },
     {
       "name": "solidifying",
+      "stylingId": "solidifying",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -985,6 +1054,7 @@
     },
     {
       "name": "isotonic agent",
+      "stylingId": "isotonic_agent",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -994,6 +1064,7 @@
     },
     {
       "name": "pH modifier",
+      "stylingId": "pH_modifier",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
