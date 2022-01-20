@@ -405,6 +405,11 @@ body {
 /* -------- end bottom categories --------- */
 
 /* --------------------  end categories Hexagon ------------ */
+/* --------------------  info box -------------------- */
+
+.info-box.hidden {
+    display: none;
+}
 
 .info-box {
     display: flex;
