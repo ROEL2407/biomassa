@@ -39,6 +39,134 @@ body {
 
 /* --------------------  end styling reset ------------- */
 
+/* --------------------  header ------------- */
+
+header{
+    background-color:#94515E;
+    padding:5px;
+    margin:0;
+  }
+  header h1, header p{
+    color:white;
+    text-align: center;
+  }
+
+/* --------------------  end header ------------- */
+
+/* --------------------  legenda ------------- */
+#legenda h2 {
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+#legenda p {
+    font-size: 13px;
+    margin: 20px 0 12px 12px;
+    max-width: 70px;
+}
+
+.legenda_hexagon {
+    position: relative;
+    width: 40px;
+    height: 23.09px;
+    margin: 11.55px 12px;
+}
+
+.legenda_hexagon:before,
+.legenda_hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.legenda_hexagon:before {
+    bottom: 100%;
+    border-bottom: 11.55px;
+}
+
+.legenda_hexagon:after {
+    top: 100%;
+    width: 0;
+    border-bottom: 11.55px;
+}
+
+#animal {
+    background-color: rgb(237, 225, 220);
+}
+
+#animal:before {
+    border-bottom: 11.55px solid rgb(237, 225, 220);
+}
+
+#animal:after {
+    border-top: 11.55px solid rgb(237, 225, 220);
+}
+
+#plants {
+    background-color: rgb(50, 22, 27);
+}
+
+#plants:before {
+    border-bottom: 11.55px solid rgb(50, 22, 27);
+}
+
+#plants:after {
+    border-top: 11.55px solid rgb(50, 22, 27);
+}
+
+#microbial {
+    background-color: rgb(239, 133, 154);
+}
+
+#microbial:before {
+    border-bottom: 11.55px solid rgb(239, 133, 154);
+}
+
+#microbial:after {
+    border-top: 11.55px solid rgb(239, 133, 154);
+}
+
+#inorganic {
+    background-color: rgb(172, 101, 76);
+}
+
+#inorganic:before {
+    border-bottom: 11.55px solid rgb(172, 101, 76);
+}
+
+#inorganic:after {
+    border-top: 11.55px solid rgb(172, 101, 76);
+}
+
+#chemicalcompounds {
+    background-color: rgb(115, 163, 187);
+}
+
+#chemicalcompounds:before {
+    border-bottom: 11.55px solid rgb(115, 163, 187);
+}
+
+#chemicalcompounds:after {
+    border-top: 11.55px solid rgb(115, 163, 187);
+}
+
+#petrolbased {
+    background-color: rgb(136, 30, 37);
+}
+
+#petrolbased:before {
+    border-bottom: 11.55px solid rgb(136, 30, 37);
+}
+
+#petrolbased:after {
+    border-top: 11.55px solid rgb(136, 30, 37);
+}
+
+/* --------------------  end legenda ------------- */
+
+
 /* --------------------  Background Hexagon ------------ */
 #svg {
     position: absolute;
@@ -420,6 +548,6 @@ body {
     width: 300px;
     position: absolute;
     left: 35%;
-    top:27.5%;
+    top: 27.5%;
     border: 1px solid black;
 }
