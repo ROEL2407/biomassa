@@ -15,7 +15,8 @@ function getIngredientData(data) {
             subcategory: item.subcategory,
             functions: item.functions,
             base: item.base,
-            origin: item.origin
+            origin: item.origin,
+            class: item.class
         });
     });
     showInfo(itemArray);
@@ -74,12 +75,10 @@ function getIngredientData(data) {
 //     d3.select('#origin').text(`Origin: ${data.origin}`);
 //     d3.select('#base').text(`Base: ${data.base}`);
 // }
-
 function showInfo(data) {
     data.forEach(item => {
         tempItem = document.createElement('section');
-        tempItem.classList.add('info-box', "hidden");
-        tempItem.setAttribute("id", item.name);
+        tempItem.classList.add('info-box', "hidden", item.class);
 
         output = '<p id="name">' + item.name + '</p><p id="info_cat">' + item.category + '</p>';
         if (item.wiki !== undefined) {
@@ -94,6 +93,31 @@ function showInfo(data) {
         document.getElementById('info_boxes').appendChild(tempItem);
     })
 }
+
+let clickId = "init"; 
+const onClick = (event) => {
+    if ( event.target.nodeName === 'text') {
+      console.log(event.target.id);
+      clickId = event.target.id;
+    }
+    else if (event.target.nodeName === 'tspan') {
+        console.log(event.target.parentNode.id);
+        clickId = event.target.parentNode.id;
+    }
+    
+    let classHolder = document.getElementsByClassName(clickId);
+    console.log(clickId);
+    console.log(classHolder);
+    if(classHolder !== undefined){
+        for (i = 0; i < classHolder.length; i++) {
+
+            classHolder[i].style.display = "block";
+          }
+        
+    }
+
+  }
+  window.addEventListener('click', onClick);
 
 function showCat(data) {
     // let catArray = [];
