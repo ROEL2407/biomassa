@@ -65,16 +65,6 @@ function getIngredientData(data) {
 //     .attr("id", "tooltip")
 //     .attr("class", "hidden");
 
-// function showInfo(data) {
-//     d3.select(this).attr('class', 'block');
-//     d3.select('#toolTip').classed('hidden', false);
-//     //give data to tooltip
-//     d3.select('#name').text(`Name: ${data.name}`);
-//     d3.select('#info_cat').text(`Category: ${data.category}`);
-//     d3.select('#replacements').text(`Replacements: ${data.replacements}`); // moet anders
-//     d3.select('#origin').text(`Origin: ${data.origin}`);
-//     d3.select('#base').text(`Base: ${data.base}`);
-// }
 function showInfo(data) {
     data.forEach(item => {
         tempItem = document.createElement('section');
@@ -93,31 +83,34 @@ function showInfo(data) {
         document.getElementById('info_boxes').appendChild(tempItem);
     })
 }
-
-let clickId = "init"; 
+function infoboxes() {
+let clickId = "init";
 const onClick = (event) => {
     if ( event.target.nodeName === 'text') {
-      console.log(event.target.id);
       clickId = event.target.id;
     }
     else if (event.target.nodeName === 'tspan') {
-        console.log(event.target.parentNode.id);
         clickId = event.target.parentNode.id;
     }
     
     let classHolder = document.getElementsByClassName(clickId);
-    console.log(clickId);
     console.log(classHolder);
+    let reset = document.getElementsByClassName("info-box");
     if(classHolder !== undefined){
         for (i = 0; i < classHolder.length; i++) {
-
             classHolder[i].style.display = "block";
-          }
-        
+        }
     }
 
+    for (j = 0; j < reset.length; j++) {
+        if (!reset[j].classList.contains(clickId)) {
+            reset[j].style.display = "none";
+        }
+    }
   }
   window.addEventListener('click', onClick);
+}
+infoboxes();
 
 function showCat(data) {
     // let catArray = [];

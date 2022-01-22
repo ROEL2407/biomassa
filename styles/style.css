@@ -54,6 +54,14 @@ header{
 /* --------------------  end header ------------- */
 
 /* --------------------  legenda ------------- */
+#legenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    z-index: -5;
+}
+
 #legenda h2 {
     font-size: 15px;
     margin-left: 12px;
@@ -64,7 +72,6 @@ header{
     margin: 20px 0 12px 12px;
     max-width: 70px;
 }
-
 .legenda_hexagon {
     position: relative;
     width: 40px;
@@ -172,7 +179,6 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -5;
 }
 
 #svg svg {
@@ -185,10 +191,9 @@ header{
 
 .hexagon {
     position: relative;
-    top: 280px;
     max-width: 1000px;
     height: 577.35px;
-    margin: 300px auto;
+    margin: auto;
 }
 
 /* --------------------  end Background Hexagon ------------ */
@@ -272,7 +277,7 @@ header{
     -o-transform: rotate(360deg);
 }
 
-.subcat:first-of-type {
+.subcat:last-of-type {
     left: 16%;
     top: -51%;
     transform: rotate(360deg);
@@ -310,7 +315,7 @@ header{
     top: 25px;
 }
 
-.subcat:last-of-type {
+.subcat:first-of-type {
     left: -28%;
     top: 75%;
     transform: rotate(240deg);
