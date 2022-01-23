@@ -41,15 +41,17 @@ body {
 
 /* --------------------  header ------------- */
 
-header{
-    background-color:#94515E;
-    padding:5px;
-    margin:0;
-  }
-  header h1, header p{
-    color:white;
+header {
+    background-color: #94515E;
+    padding: 5px;
+    margin: 0;
+}
+
+header h1,
+header p {
+    color: white;
     text-align: center;
-  }
+}
 
 /* --------------------  end header ------------- */
 
@@ -73,6 +75,7 @@ header{
     margin: 20px 0 12px 12px;
     max-width: 70px;
 }
+
 .legenda_hexagon {
     position: relative;
     width: 40px;
@@ -188,6 +191,7 @@ header{
 
 #svg svg {
     width: 100vw;
+    min-width: 1300px;
 }
 
 .background-hex {
@@ -562,3 +566,142 @@ header{
     top: 27.5%;
     border: 1px solid black;
 }
+
+/* ------------  media queries -------------- */
+@media only screen and (max-width: 1700px) {
+    .hexagon {
+        top: 47%;
+    }
+
+    .plasticizers,
+    .pigments,
+    .ph,
+    .surfactants,
+    .fillers,
+    .solvents,
+    .mordants,
+    .growth_media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 175px; 
+        height: 101.04px;
+        background-color: #ffffff;
+        margin: 50.52px 0;
+        border-left: solid 3px #881e24;
+        border-right: solid 3px #881e24;
+        transform: rotate(330deg);
+        -ms-transform: rotate(330deg);
+        -moz-transform: rotate(330deg);
+        -webkit-transform: rotate(330deg);
+        -o-transform: rotate(330deg);
+    }
+
+    .plasticizers:before,
+    .pigments:before,
+    .ph:before,
+    .surfactants:before,
+    .fillers:before,
+    .solvents:before,
+    .mordants:before,
+    .growth_media:before,
+    .plasticizers:after,
+    .pigments:after,
+    .ph:after,
+    .surfactants:after,
+    .fillers:after,
+    .solvents:after,
+    .mordants:after,
+    .growth_media:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 123.74px;
+        height: 123.74px;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background-color: inherit;
+        left: 22.6282px;
+    }
+
+    .plasticizers:before,
+    .pigments:before,
+    .ph:before,
+    .surfactants:before,
+    .fillers:before,
+    .solvents:before,
+    .mordants:before,
+    .growth_media:before {
+        top: -61.8718px;
+        border-top: solid 4.2426px #881e24;
+        border-right: solid 4.2426px #881e24;
+    }
+
+    .plasticizers:after,
+    .pigments:after,
+    .ph:after,
+    .surfactants:after,
+    .fillers:after,
+    .solvents:after,
+    .mordants:after,
+    .growth_media:after {
+        bottom: -61.8718px;
+        border-bottom: solid 4.2426px #881e24;
+        border-left: solid 4.2426px #881e24;
+    }
+
+    .polymers {
+        left: 37%;
+        top: -42%;
+    }
+    
+    .surfactants {
+        left: 21%;
+        top: -16%;
+    }
+    
+    .ph {
+        right: 22%;
+        top: -16%;
+    }
+    
+    .pigments {
+        right: 9.5%;
+        top: 13%;
+    }
+    
+    .plasticizers {
+        left: 8.5%;
+        top: 13%;
+    }
+    
+    .miscellaneous {
+        left: 37.5%;
+        bottom: -42%;
+    }
+    
+    .solvents {
+        left: 21%;
+        bottom: -14%;
+    }
+    
+    .fillers {
+        right: 22%;
+        bottom: -14%;
+    }
+    
+    .growth_media {
+        right: 9.5%;
+        bottom: 15%;
+    }
+    
+    .mordants {
+        left: 8.5%;
+        bottom: 15%;
+    }
+
+}
+
+/* ------------  end media queries -------------- */
