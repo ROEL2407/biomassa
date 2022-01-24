@@ -569,16 +569,7 @@ header p {
 }
 
 /* ------------  media queries -------------- */
-@media only screen and (max-width: 1830px) {
-    .hexagon {
-        top: 50%;
-    }
-}
 @media only screen and (max-width: 1700px) {
-    .hexagon {
-        top: 47%;
-    }
-
     .plasticizers,
     .pigments,
     .ph,
@@ -711,10 +702,6 @@ header p {
 }
 
 @media only screen and (max-width: 1700px) {
-    .hexagon {
-        top: 47%;
-    }
-
     .plasticizers,
     .pigments,
     .ph,
@@ -1052,12 +1039,6 @@ header p {
         bottom: 37%;
     }
 
-}
-
-@media only screen and (max-width: 1410px) {
-    .hexagon {
-        top: 39%;
-    }
 }
 
 /* ------------  end media queries -------------- */
