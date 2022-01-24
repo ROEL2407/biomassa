@@ -19,6 +19,7 @@ function getIngredientData(data) {
             class: item.class
         });
     });
+    
     showInfo(itemArray);
     showCat(itemArray);
 }
@@ -70,14 +71,14 @@ function showInfo(data) {
         tempItem = document.createElement('section');
         tempItem.classList.add('info-box', "hidden", item.class);
 
-        output = '<p id="name">' + item.name + '</p><p id="info_cat">' + item.category + '</p>';
+        output = '<p class="name">Name: ' + item.name + '</p><p class="info_cat">Category: ' + item.category + '</p>';
         if (item.wiki !== undefined) {
-            output += '<p id="wiki_link">' + item.wiki + '</p>';
+            output += '<p class="wiki_link">Wiki page: ' + item.wiki + '</p>';
         }
         else {
-            output += '<p id="wiki_link"> </p>';
+            output += '<p class="wiki_link"> </p>';
         }
-        output += '<p id="origin">' + item.origin + '</p><p id="base">' + item.base + '</p>';
+        output += '<p class="origin">Origin(s): ' + item.origin + '</p><p class="base">Base: ' + item.base + '</p>';
 
         tempItem.innerHTML = output;
         document.getElementById('info_boxes').appendChild(tempItem);
