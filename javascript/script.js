@@ -86,11 +86,14 @@ function showInfo(data) {
 function infoboxes() {
 let clickId = "init";
 const onClick = (event) => {
-    if ( event.target.nodeName === 'text') {
+    if ( event.target.nodeName === 'g') {
       clickId = event.target.id;
     }
+    else if ( event.target.nodeName === 'text') {
+      clickId = event.target.parentNode.id;
+    }
     else if (event.target.nodeName === 'tspan') {
-        clickId = event.target.parentNode.id;
+        clickId = event.target.parentNode.parentNode.id;
     }
     
     let classHolder = document.getElementsByClassName(clickId);

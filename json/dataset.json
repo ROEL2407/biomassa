@@ -1,7 +1,7 @@
 [
     {
       "name": "cellulose",
-      "class": "cellulose",
+      "class": "cellulose_plants",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -61,7 +61,7 @@
     },
     {
       "name": "cellulose",
-      "class": "cellulose_polymers",
+      "class": "cellulose_microbial",
       "category": "polymers",
       "subcategory": "polysaccharides",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -211,7 +211,7 @@
     },
     {
       "name": "chitin (fungal)",
-      "class": "chitin_(fungal)",
+      "class": "chitin_fungal",
       "category": "polymers",
       "subcategory": "protein",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -240,8 +240,17 @@
       "origin": "['copal', 'kauri gum', 'turpentine', 'spinifex', 'sandarac', 'cabdanum', 'mastic', 'urushi', 'arabic gum']"
     },
     {
+      "name": "petrol-based polymers",
+      "class": "petrol-based_polymers",
+      "category": "polymers",
+      "subcategory": "polysaccharides",
+      "functions": "['give strength', 'adhesion', 'coating', 'binder','growth substrate','enforcement or scaffold in composites']",
+      "base": "petrol-based",
+      "origin": [""]
+    },
+    {
       "name": "petrol-based resins",
-      "class": "petrol-based_resins",
+      "class": "petrol_based_resins",
       "category": "polymers",
       "subcategory": "resins",
       "functions": "['give strength', 'adhesion', 'coating', 'binder', 'growth substrate', 'enforcement or scaffold in composites']",
@@ -291,7 +300,7 @@
     },
     {
       "name": "waxes",
-      "class": "waxes",
+      "class": "waxes-2",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -371,7 +380,7 @@
     },
     {
       "name": "water",
-      "class": "water",
+      "class": "water-2",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -380,8 +389,8 @@
       "origin": "['water']"
     },
     {
-      "name": "poypols",
-      "class": "poypols_plast2",
+      "name": "poylols",
+      "class": "poylols_chem",
       "category": "plasticizers",
       "subcategory": "plasticizers",
       "functions": "['give flexibility to biopolymer recipes', 'acts as a partial filler as well']",
@@ -503,7 +512,7 @@
     },
     {
       "name": "acidic",
-      "class": "acidic_micro",
+      "class": "acidic_microbial",
       "category": "pH modifiers",
       "subcategory": "",
       "functions": "['change the PH of a liquid']",
@@ -914,7 +923,7 @@
     },
     {
       "name": "solidifying agent",
-      "class": "solidifying_agent",
+      "class": "solidifying_agent_animal",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -934,7 +943,7 @@
     },
     {
       "name": "carbon (sugars)",
-      "class": "carbon_sugars_plants",
+      "class": "carbon_sugars_animal",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -1003,6 +1012,16 @@
       "origin": "['vegetable peptone', 'starches', 'dextrose', 'maltose', 'glycerine', 'malt extract', 'glucose', 'dextrose', 'corn syrup', 'sugar', 'potato']"
     },
     {
+      "name": "carbon (sugars)",
+      "class": "carbon_sugars_plants_2",
+      "category": "growth media",
+      "subcategory": "",
+      "functions": "['various functions in microbiological lab work']",
+      "base": "plants",
+      "wiki": "",
+      "origin": "['vegetable peptone', 'starches', 'dextrose', 'maltose', 'glycerine', 'malt extract', 'glucose', 'dextrose', 'corn syrup', 'sugar', 'potato']"
+    },
+    {
       "name": "pH buffer",
       "class": "pH_buffer_plants",
       "category": "growth media",
@@ -1043,8 +1062,8 @@
       "origin": "['yeast']"
     },
     {
-      "name": "solidifying",
-      "class": "solidifying",
+      "name": "solidifying agent",
+      "class": "solidifying_agent_microbial",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
@@ -1064,7 +1083,7 @@
     },
     {
       "name": "pH modifier",
-      "class": "pH_modifier",
+      "class": "pH_modifier_chem",
       "category": "growth media",
       "subcategory": "",
       "functions": "['various functions in microbiological lab work']",
