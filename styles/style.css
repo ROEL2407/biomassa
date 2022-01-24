@@ -195,6 +195,10 @@ header p {
     max-width: 1920px;
 }
 
+#svg .pointer {
+    cursor:pointer;
+}
+
 .background-hex {
     z-index: -1;
 }
