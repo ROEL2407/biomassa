@@ -30,7 +30,7 @@
     {
         "id": 4,
         "name":"Surfactants",
-        "class":"surfactants",
+        "class":"surfactants_cat",
         "subcats":"",
         "function":["change surface tension between liquids", " emulsifying" , "foaming"]
     },

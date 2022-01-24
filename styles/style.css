@@ -381,7 +381,7 @@ header p {
 .plasticizers,
 .pigments,
 .ph,
-.surfactants,
+.surfactants_cat,
 .fillers,
 .solvents,
 .mordants,
@@ -407,7 +407,7 @@ header p {
 .plasticizers .cat_wrapper,
 .pigments .cat_wrapper,
 .ph .cat_wrapper,
-.surfactants .cat_wrapper,
+.surfactants_cat .cat_wrapper,
 .fillers .cat_wrapper,
 .solvents .cat_wrapper,
 .mordants .cat_wrapper,
@@ -424,7 +424,7 @@ header p {
 .plasticizers:before,
 .pigments:before,
 .ph:before,
-.surfactants:before,
+.surfactants_cat:before,
 .fillers:before,
 .solvents:before,
 .mordants:before,
@@ -432,7 +432,7 @@ header p {
 .plasticizers:after,
 .pigments:after,
 .ph:after,
-.surfactants:after,
+.surfactants_cat:after,
 .fillers:after,
 .solvents:after,
 .mordants:after,
@@ -452,7 +452,7 @@ header p {
 .plasticizers:before,
 .pigments:before,
 .ph:before,
-.surfactants:before,
+.surfactants_cat:before,
 .fillers:before,
 .solvents:before,
 .mordants:before,
@@ -465,7 +465,7 @@ header p {
 .plasticizers:after,
 .pigments:after,
 .ph:after,
-.surfactants:after,
+.surfactants_cat:after,
 .fillers:after,
 .solvents:after,
 .mordants:after,
@@ -479,7 +479,7 @@ header p {
 .plasticizers,
 .pigments,
 .ph,
-.surfactants {
+.surfactants_cat {
     position: absolute;
     top: 0;
 }
@@ -499,7 +499,7 @@ header p {
     top: -42%;
 }
 
-.surfactants {
+.surfactants_cat {
     left: 17%;
     top: -21%;
 }
@@ -573,7 +573,7 @@ header p {
     .plasticizers,
     .pigments,
     .ph,
-    .surfactants,
+    .surfactants_cat,
     .fillers,
     .solvents,
     .mordants,
@@ -598,7 +598,7 @@ header p {
     .plasticizers:before,
     .pigments:before,
     .ph:before,
-    .surfactants:before,
+    .surfactants_cat:before,
     .fillers:before,
     .solvents:before,
     .mordants:before,
@@ -606,7 +606,7 @@ header p {
     .plasticizers:after,
     .pigments:after,
     .ph:after,
-    .surfactants:after,
+    .surfactants_cat:after,
     .fillers:after,
     .solvents:after,
     .mordants:after,
@@ -626,7 +626,7 @@ header p {
     .plasticizers:before,
     .pigments:before,
     .ph:before,
-    .surfactants:before,
+    .surfactants_cat:before,
     .fillers:before,
     .solvents:before,
     .mordants:before,
@@ -639,7 +639,7 @@ header p {
     .plasticizers:after,
     .pigments:after,
     .ph:after,
-    .surfactants:after,
+    .surfactants_cat:after,
     .fillers:after,
     .solvents:after,
     .mordants:after,
@@ -654,7 +654,7 @@ header p {
         top: -42%;
     }
 
-    .surfactants {
+    .surfactants_cat {
         left: 21%;
         top: -16%;
     }
@@ -705,7 +705,7 @@ header p {
     .plasticizers,
     .pigments,
     .ph,
-    .surfactants,
+    .surfactants_cat,
     .fillers,
     .solvents,
     .mordants,
@@ -730,7 +730,7 @@ header p {
     .plasticizers:before,
     .pigments:before,
     .ph:before,
-    .surfactants:before,
+    .surfactants_cat:before,
     .fillers:before,
     .solvents:before,
     .mordants:before,
@@ -738,7 +738,7 @@ header p {
     .plasticizers:after,
     .pigments:after,
     .ph:after,
-    .surfactants:after,
+    .surfactants_cat:after,
     .fillers:after,
     .solvents:after,
     .mordants:after,
@@ -758,7 +758,7 @@ header p {
     .plasticizers:before,
     .pigments:before,
     .ph:before,
-    .surfactants:before,
+    .surfactants_cat:before,
     .fillers:before,
     .solvents:before,
     .mordants:before,
@@ -771,7 +771,7 @@ header p {
     .plasticizers:after,
     .pigments:after,
     .ph:after,
-    .surfactants:after,
+    .surfactants_cat:after,
     .fillers:after,
     .solvents:after,
     .mordants:after,
@@ -786,7 +786,7 @@ header p {
         top: -42%;
     }
 
-    .surfactants {
+    .surfactants_cat {
         left: 21%;
         top: -16%;
     }
@@ -841,7 +841,7 @@ header p {
     .plasticizers,
     .pigments,
     .ph,
-    .surfactants,
+    .surfactants_cat,
     .fillers,
     .solvents,
     .mordants,
@@ -857,7 +857,7 @@ header p {
     .plasticizers:before,
     .pigments:before,
     .ph:before,
-    .surfactants:before,
+    .surfactants_cat:before,
     .fillers:before,
     .solvents:before,
     .mordants:before,
@@ -865,7 +865,7 @@ header p {
     .plasticizers:after,
     .pigments:after,
     .ph:after,
-    .surfactants:after,
+    .surfactants_cat:after,
     .fillers:after,
     .solvents:after,
     .mordants:after,
@@ -878,7 +878,7 @@ header p {
     .plasticizers:before,
     .pigments:before,
     .ph:before,
-    .surfactants:before,
+    .surfactants_cat:before,
     .fillers:before,
     .solvents:before,
     .mordants:before,
@@ -891,7 +891,7 @@ header p {
     .plasticizers:after,
     .pigments:after,
     .ph:after,
-    .surfactants:after,
+    .surfactants_cat:after,
     .fillers:after,
     .solvents:after,
     .mordants:after,
@@ -994,7 +994,7 @@ header p {
         top: -32%;
     }
 
-    .surfactants {
+    .surfactants_cat {
         left: 29%;
         top: -14%;
     }
