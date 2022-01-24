@@ -192,6 +192,7 @@ header p {
 #svg svg {
     width: 100vw;
     min-width: 1300px;
+    max-width: 1920px;
 }
 
 .background-hex {
@@ -200,7 +201,7 @@ header p {
 
 .hexagon {
     position: relative;
-    top: 47%;
+    top: 58%;
     max-width: 1000px;
     height: 577.35px;
     margin: auto;
@@ -298,7 +299,7 @@ header p {
 }
 
 .subcat:nth-of-type(2) {
-    z-index: 2;
+    z-index: 4;
     left: 60%;
     top: -8%;
     transform: rotate(60.5deg);
@@ -568,6 +569,11 @@ header p {
 }
 
 /* ------------  media queries -------------- */
+@media only screen and (max-width: 1830px) {
+    .hexagon {
+        top: 50%;
+    }
+}
 @media only screen and (max-width: 1700px) {
     .hexagon {
         top: 47%;
@@ -585,7 +591,7 @@ header p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 175px; 
+        width: 175px;
         height: 101.04px;
         background-color: #ffffff;
         margin: 50.52px 0;
@@ -656,52 +662,398 @@ header p {
         left: 37%;
         top: -42%;
     }
-    
+
     .surfactants {
         left: 21%;
         top: -16%;
     }
-    
+
     .ph {
         right: 22%;
         top: -16%;
     }
-    
+
     .pigments {
         right: 9.5%;
         top: 13%;
     }
-    
+
     .plasticizers {
         left: 8.5%;
         top: 13%;
     }
-    
+
     .miscellaneous {
         left: 37.5%;
         bottom: -42%;
     }
-    
+
     .solvents {
         left: 21%;
         bottom: -14%;
     }
-    
+
     .fillers {
         right: 22%;
         bottom: -14%;
     }
-    
+
     .growth_media {
         right: 9.5%;
         bottom: 15%;
     }
-    
+
     .mordants {
         left: 8.5%;
         bottom: 15%;
     }
 
+}
+
+@media only screen and (max-width: 1700px) {
+    .hexagon {
+        top: 47%;
+    }
+
+    .plasticizers,
+    .pigments,
+    .ph,
+    .surfactants,
+    .fillers,
+    .solvents,
+    .mordants,
+    .growth_media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 175px;
+        height: 101.04px;
+        background-color: #ffffff;
+        margin: 50.52px 0;
+        border-left: solid 3px #881e24;
+        border-right: solid 3px #881e24;
+        transform: rotate(330deg);
+        -ms-transform: rotate(330deg);
+        -moz-transform: rotate(330deg);
+        -webkit-transform: rotate(330deg);
+        -o-transform: rotate(330deg);
+    }
+
+    .plasticizers:before,
+    .pigments:before,
+    .ph:before,
+    .surfactants:before,
+    .fillers:before,
+    .solvents:before,
+    .mordants:before,
+    .growth_media:before,
+    .plasticizers:after,
+    .pigments:after,
+    .ph:after,
+    .surfactants:after,
+    .fillers:after,
+    .solvents:after,
+    .mordants:after,
+    .growth_media:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 123.74px;
+        height: 123.74px;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background-color: inherit;
+        left: 22.6282px;
+    }
+
+    .plasticizers:before,
+    .pigments:before,
+    .ph:before,
+    .surfactants:before,
+    .fillers:before,
+    .solvents:before,
+    .mordants:before,
+    .growth_media:before {
+        top: -61.8718px;
+        border-top: solid 4.2426px #881e24;
+        border-right: solid 4.2426px #881e24;
+    }
+
+    .plasticizers:after,
+    .pigments:after,
+    .ph:after,
+    .surfactants:after,
+    .fillers:after,
+    .solvents:after,
+    .mordants:after,
+    .growth_media:after {
+        bottom: -61.8718px;
+        border-bottom: solid 4.2426px #881e24;
+        border-left: solid 4.2426px #881e24;
+    }
+
+    .polymers {
+        left: 37%;
+        top: -42%;
+    }
+
+    .surfactants {
+        left: 21%;
+        top: -16%;
+    }
+
+    .ph {
+        right: 22%;
+        top: -16%;
+    }
+
+    .pigments {
+        right: 9.5%;
+        top: 13%;
+    }
+
+    .plasticizers {
+        left: 8.5%;
+        top: 13%;
+    }
+
+    .miscellaneous {
+        left: 37.5%;
+        bottom: -42%;
+    }
+
+    .solvents {
+        left: 21%;
+        bottom: -14%;
+    }
+
+    .fillers {
+        right: 22%;
+        bottom: -14%;
+    }
+
+    .growth_media {
+        right: 9.5%;
+        bottom: 15%;
+    }
+
+    .mordants {
+        left: 8.5%;
+        bottom: 15%;
+    }
+
+}
+
+@media only screen and (max-width: 1660px) {
+    .plasticizers,
+    .pigments,
+    .ph,
+    .surfactants,
+    .fillers,
+    .solvents,
+    .mordants,
+    .growth_media {
+        width: 125px;
+        height: 72.17px;
+        background-color: #ffffff;
+        margin: 36.08px 0;
+        border-left: solid 3px #881e24;
+        border-right: solid 3px #881e24;
+    }
+
+    .plasticizers:before,
+    .pigments:before,
+    .ph:before,
+    .surfactants:before,
+    .fillers:before,
+    .solvents:before,
+    .mordants:before,
+    .growth_media:before,
+    .plasticizers:after,
+    .pigments:after,
+    .ph:after,
+    .surfactants:after,
+    .fillers:after,
+    .solvents:after,
+    .mordants:after,
+    .growth_media:after {
+        width: 88.39px;
+        height: 88.39px;
+        left: 15.3058px;
+    }
+
+    .plasticizers:before,
+    .pigments:before,
+    .ph:before,
+    .surfactants:before,
+    .fillers:before,
+    .solvents:before,
+    .mordants:before,
+    .growth_media:before {
+        top: -44.1942px;
+        border-top: solid 4.2426px #881e24;
+        border-right: solid 4.2426px #881e24;
+    }
+
+    .plasticizers:after,
+    .pigments:after,
+    .ph:after,
+    .surfactants:after,
+    .fillers:after,
+    .solvents:after,
+    .mordants:after,
+    .growth_media:after {
+        bottom: -44.1942px;
+        border-bottom: solid 4.2426px #881e24;
+        border-left: solid 4.2426px #881e24;
+    }
+
+    .polymers,
+    .miscellaneous {
+        width: 175px;
+        height: 101.04px;
+        background-color: #ffffff;
+        margin: 50.52px 0;
+        border-left: solid 3px #881e24;
+        border-right: solid 3px #881e24;
+    }
+
+    .polymers:before,
+    .miscellaneous:before,
+    .polymers:after,
+    .miscellaneous:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 123.74px;
+        height: 123.74px;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background-color: inherit;
+        left: 22.6282px;
+    }
+
+    .polymers:before,
+    .miscellaneous:before {
+        top: -61.8718px;
+        border-top: solid 4.2426px #881e24;
+        border-right: solid 4.2426px #881e24;
+    }
+
+    .polymers:after,
+    .miscellaneous:after {
+        bottom: -61.8718px;
+        border-bottom: solid 4.2426px #881e24;
+        border-left: solid 4.2426px #881e24;
+    }
+
+    .cat-hexagon .function {
+        display: flex;
+        flex-direction: column;
+        width: 86px;
+        margin: 0 auto;
+    }
+
+    .cat-hexagon li {
+        font-size: 10px;
+    }
+
+    .subcat {
+        border-width: 0 60px 38.2px 60px;
+    }
+    .subcat p {
+        font-size: 10px;
+    }
+
+    .subcat:first-of-type {
+        left: -28%;
+        top: 72%;
+    }
+
+    .subcat:nth-of-type(2) {
+        left: 58%;
+        top: -10%;
+    }
+
+    .subcat:nth-of-type(3) {
+        left: -29%;
+        top: -11%;
+    }
+
+    .subcat:nth-of-type(3) p {
+        top: 20px;
+    }
+
+    .subcat:last-of-type {
+        left: 14%;
+        top: -54%;
+    }
+
+    .subcat:last-of-type p {
+        width: 83px;
+        left: -43px;
+        top: 12px;
+    }
+
+    .polymers {
+        left: 42%;
+        top: -32%;
+    }
+
+    .surfactants {
+        left: 29%;
+        top: -14%;
+    }
+
+    .ph {
+        right: 27.5%;
+        top: -14%;
+    }
+
+    .pigments {
+        right: 17.5%;
+        top: 8%;
+    }
+
+    .plasticizers {
+        left: 18.5%;
+        top: 8%;
+    }
+
+    .miscellaneous {
+        left: 42%;
+        bottom: -4%;
+    }
+
+    .solvents {
+        left: 29%;
+        bottom: 15%;
+    }
+
+    .fillers {
+        right: 27.5%;
+        bottom: 15%
+    }
+
+    .growth_media {
+        right: 17.5%;
+        bottom: 37%;
+    }
+
+    .mordants {
+        left: 18.5%;
+        bottom: 37%;
+    }
+
+}
+
+@media only screen and (max-width: 1410px) {
+    .hexagon {
+        top: 39%;
+    }
 }
 
 /* ------------  end media queries -------------- */
