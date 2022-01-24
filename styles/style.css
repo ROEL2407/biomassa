@@ -847,6 +847,10 @@ header p {
 }
 
 @media only screen and (max-width: 1660px) {
+    .info-box {
+        top: 14.5%;
+    }
+
     .plasticizers,
     .pigments,
     .ph,
