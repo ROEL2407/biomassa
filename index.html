@@ -11,9 +11,18 @@
 
 <body>
     <header>
-      <h1>Morphological chart for biomaterial</h1>
-      <p>Understand where ingredients can be found in nature & find (locally abundant) substitutes</p>
+        <section id="devider"></section>
+        <section id="header_text">
+            <h1>Morphological chart for biomaterial</h1>
+            <p>Understand where ingredients can be found in nature & find (locally abundant) substitutes</p>
+        </section>
+      <section id="explain">
+          <button id="button">&#63;</button>
+      </section>
     </header>
+    <section id="explanation" class="hidden">
+        <h1>Explanation of the visualization</h1>
+    </section>
     <section id="legenda">
         <h2>Legend</h2>
         <p>Animal</p>
@@ -30,7 +39,9 @@
         <div id="petrolbased" class="legenda_hexagon"></div>
     </section>
     <section id="wrapper">
-        <div id="svg"></div>
+        <div id="svg">
+        </div>
+        <div id="lines"></div>
         <section id="background-hex" class="hexagon">
             <section id="info_boxes"></section>
         </section>
