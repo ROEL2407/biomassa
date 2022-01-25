@@ -21,50 +21,7 @@ function getIngredientData(data) {
     });
     
     showInfo(itemArray);
-    showCat(itemArray);
 }
-
-
-
-// let node = g
-//     .selectAll(".cls-2")
-//     .on("click", click);
-
-
-// function click(d) {
-//     d3.select("#tooltip")
-//         .transition()
-//         .duration("50")
-//         .attr("opacity", ".85")
-//         .style("opacity", 1)
-
-//     if (d.data.origin != null) {
-//         d3.select("#origin").text("Origin: " + `${d.data.origin}`);
-//         d3.select("#base").text("Base: " + `${d.data.base}`);
-//     } else {
-//         d3.select("#origin").text(" ");
-//         d3.select("#base").text(" ");
-//     }
-
-//     if (d.data.functions != null) {
-//         d3.select("#functions").text("Functions: " + `${d.data.functions}`);
-//     } else if (d.data.children[0].functions != null) {
-//         d3.select("#functions").text(
-//             "Functions: " + `${d.data.children[0].functions}`
-//         );
-//     } else if (d.data.children[0].children[0].functions != null) {
-//         d3.select("#functions").text(
-//             "Functions: " + `${d.data.children[0].children[0].functions}`
-//         );
-//     } else {
-//         d3.select("#functions").text(" ");
-//     }
-// }
-// let tooltip = d3
-//     .select(".info-box")
-//     .append("div")
-//     .attr("id", "tooltip")
-//     .attr("class", "hidden");
 
 function showInfo(data) {
     data.forEach(item => {
@@ -115,25 +72,6 @@ const onClick = (event) => {
   window.addEventListener('click', onClick);
 }
 infoboxes();
-
-function showCat(data) {
-    // let catArray = [];
-    // const base = 
-    // console.log(catArray);
-    // data.forEach((data) => {
-    //     const category = data.category;
-    //     if(!catArray.includes(category)){
-    //         catArray.push ({
-    //             Category: data.category
-    //         });
-    //     }
-    //     else {
-    //         console.log("a")
-    //     }
-    //     console.log(1);
-    // })
-    // console.log(catArray);
-}
 
 function getData(url) {
     // return every fetch
