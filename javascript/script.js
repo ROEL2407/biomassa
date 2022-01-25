@@ -1,3 +1,9 @@
+const targetDiv = document.getElementById("explanation");
+document.getElementById('button').onclick = function() {
+    targetDiv.classList.toggle("hidden");
+}
+
+
 function fetching() {
     // Fetch init API
     fetch("../json/dataset.json")

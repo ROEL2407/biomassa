@@ -1,6 +1,6 @@
 /*
 Color palette:
-#eee2dd = white
+#eee2dd = #fff
 #30151a = darkred
 #881e24 = winered
 #ee8599 = pink
@@ -45,13 +45,53 @@ header {
     background-color: #94515E;
     padding: 5px;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 header h1,
 header p {
-    color: white;
+    color: #fff;
     text-align: center;
 }
+
+header h1 {
+    font-size: 15px;
+}
+
+header p,
+#button {
+  font-size: 13px;
+}
+header section {
+    flex-grow: 1;
+}
+
+#header_text {
+    flex-grow: 2;
+}
+
+#explain {
+    display: flex;
+    justify-content: flex-end;
+}
+#explain #button {
+    width: 35px;
+    height: 35px;
+    background-color: #94515E;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+#explanation {
+    position: absolute;
+    left: 45%;
+    border: 1px solid #94515E;
+    padding: 10px;
+}
+
 
 /* --------------------  end header ------------- */
 
@@ -185,7 +225,6 @@ header p {
 /* --------------------  Background Hexagon ------------ */
 #svg {
     position: absolute;
-    top: 0;
     left: 0;
 }
 
@@ -196,7 +235,7 @@ header p {
 }
 
 #svg .pointer {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .background-hex {
@@ -551,8 +590,8 @@ header p {
 }
 
 /* -------- end bottom categories --------- */
-
 /* --------------------  end categories Hexagon ------------ */
+
 /* --------------------  info box -------------------- */
 
 .info-box.hidden {
@@ -574,6 +613,7 @@ header p {
 
 /* ------------  media queries -------------- */
 @media only screen and (max-width: 1700px) {
+
     .plasticizers,
     .pigments,
     .ph,
@@ -706,6 +746,7 @@ header p {
 }
 
 @media only screen and (max-width: 1700px) {
+
     .plasticizers,
     .pigments,
     .ph,
@@ -959,6 +1000,7 @@ header p {
     .subcat {
         border-width: 0 60px 38.2px 60px;
     }
+
     .subcat p {
         font-size: 10px;
     }
