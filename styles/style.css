@@ -268,7 +268,7 @@ header section {
     width: 100vw;
 }
 
-/* --------------------  Background Hexagon ------------ */
+/* --------------------  svg ------------ */
 #svg {
     position: absolute;
     left: 0;
@@ -288,19 +288,8 @@ header section {
     text-decoration: underline;
 }
 
-.background-hex {
-    z-index: -1;
-}
 
-.hexagon {
-    position: relative;
-    top: 58%;
-    max-width: 1000px;
-    height: 577.35px;
-    margin: auto;
-}
-
-/* --------------------  end Background Hexagon ------------ */
+/* --------------------  end svg ------------ */
 /* --------------------  categories Hexagon ------------ */
 
 .polymers,
