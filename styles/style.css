@@ -57,12 +57,11 @@ header p {
 }
 
 header h1 {
-    font-size: 15px;
+    font-size: 25px;
 }
 
-header p,
-#button {
-  font-size: 13px;
+header p {
+  font-size: 18px;
 }
 header section {
     flex-grow: 1;
@@ -77,8 +76,10 @@ header section {
     justify-content: flex-end;
 }
 #explain #button {
-    width: 35px;
-    height: 35px;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
     background-color: #94515E;
     color: #fff;
     border: 1px solid #fff;
@@ -216,6 +217,51 @@ header section {
 }
 
 /* --------------------  end legenda ------------- */
+
+/* --------------------  middle text ------------- */
+#middle_text {
+    position: absolute;
+    left: 35%;
+    top: 27.5%;
+}
+
+#round {
+    width: 300px;
+    height: 250px;
+}
+
+#round span span {
+    font-size: 26px;
+    height: 200px;
+    position: absolute;
+    width: 20px;
+    left: 0;
+    top: 0;
+    transform-origin: bottom center;
+}
+#round #span2 {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+
+.char1 { transform: rotate(6deg); }
+.char2 { transform: rotate(9deg); }
+.char3 { transform: rotate(15deg); }
+.char4 { transform: rotate(21deg); }
+.char5 { transform: rotate(26deg); }
+.char6 { transform: rotate(31deg); }
+.char7 { transform: rotate(37deg); }
+.char8 { transform: rotate(40deg); }
+.char9 { transform: rotate(45deg); }
+.char10 { transform: rotate(51deg); }
+.char11 { transform: rotate(56deg); }
+.char12 { transform: rotate(62deg); }
+.char13 { transform: rotate(68deg); }
+.char14 { transform: rotate(74deg); }
+/* --------------------  end middle text ------------- */
 
 #wrapper {
     height: 100vh;
@@ -993,7 +1039,7 @@ header section {
     .cat-hexagon .function {
         display: flex;
         flex-direction: column;
-        width: 86px;
+        width: 90px;
         margin: 0 auto;
     }
 
