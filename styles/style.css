@@ -1053,53 +1053,53 @@ header section {
 
 @media only screen and (max-width: 1480px) {
     .polymers {
-        left: 44.3vw;
-        top: 39vh;
+        left: 44.3%;
+        top: 40%;
     }
 
     .surfactants_cat {
-        left: 29.5%;
-        top: 38%;
+        left: 35%;
+        top: 55%;
     }
 
     .ph {
-        right: 27.5%;
-        top: 38%;
+        right: 34%;
+        top: 55%;
     }
 
     .pigments {
-        right: 21.5%;
-        top: 53%;    
+        right: 27.5%;
+        top: 70%;    
     }
 
     .plasticizers {
-        left: 22.5%;
-        top: 54.5%;
+        left: 28%;
+        top: 70%;
     }
 
     .miscellaneous {
-        left: 45.5%;
-        bottom: -24%;
+        left: 44%;
+        bottom: -45%;
     }
 
     .solvents {
-        left: 32.5%;
-        bottom: -6%;
+        left: 34.5%;
+        bottom: -33%;
     }
 
     .fillers {
-        right: 32.5%;
-        bottom: -7%;
+        right: 34.5%;
+        bottom: -33%;
     }
 
     .growth_media {
-        right: 20.5%;
-        bottom: 7%;
+        right: 28%;
+        bottom: -13%;
     }
 
     .mordants {
-        left: 23.5%;
-        bottom: 6%;
+        left: 28%;
+        bottom: -13%;
     }
 }
 
