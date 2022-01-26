@@ -784,7 +784,7 @@ header section {
 
 @media only screen and (max-width: 1660px) {
     .info-box {
-        right: 40%;
+        left: 40%;
     }
 
     .plasticizers,
