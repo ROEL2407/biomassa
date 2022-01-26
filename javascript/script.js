@@ -3,6 +3,9 @@ document.getElementById('button').onclick = function() {
     targetDiv.classList.toggle("hidden");
 }
 
+document.getElementById('x').onclick = function() {
+    targetDiv.classList.toggle("hidden");
+}
 
 function fetching() {
     // Fetch init API
@@ -25,7 +28,7 @@ function getIngredientData(data) {
             class: item.class
         });
     });
-    
+
     showInfo(itemArray);
 }
 
@@ -37,8 +40,7 @@ function showInfo(data) {
         output = '<p class="name">Name: ' + item.name + '</p><p class="info_cat">Category: ' + item.category + '</p>';
         if (item.wiki !== undefined) {
             output += '<p class="wiki_link">Wiki page: ' + item.wiki + '</p>';
-        }
-        else {
+        } else {
             output += '<p class="wiki_link"> </p>';
         }
         output += '<p class="origin">Origin(s): ' + item.origin + '</p><p class="base">Base: ' + item.base + '</p>';
@@ -47,35 +49,34 @@ function showInfo(data) {
         document.getElementById('info_boxes').appendChild(tempItem);
     })
 }
-function infoboxes() {
-let clickId = "init";
-const onClick = (event) => {
-    if ( event.target.nodeName === 'g') {
-      clickId = event.target.id;
-    }
-    else if ( event.target.nodeName === 'text') {
-      clickId = event.target.parentNode.id;
-    }
-    else if (event.target.nodeName === 'tspan') {
-        clickId = event.target.parentNode.parentNode.id;
-    }
-    
-    let classHolder = document.getElementsByClassName(clickId);
-    console.log(classHolder);
-    let reset = document.getElementsByClassName("info-box");
-    if(classHolder !== undefined){
-        for (i = 0; i < classHolder.length; i++) {
-            classHolder[i].style.display = "block";
-        }
-    }
 
-    for (j = 0; j < reset.length; j++) {
-        if (!reset[j].classList.contains(clickId)) {
-            reset[j].style.display = "none";
+function infoboxes() {
+    let clickId = "init";
+    const onClick = (event) => {
+        if (event.target.nodeName === 'g') {
+            clickId = event.target.id;
+        } else if (event.target.nodeName === 'text') {
+            clickId = event.target.parentNode.id;
+        } else if (event.target.nodeName === 'tspan') {
+            clickId = event.target.parentNode.parentNode.id;
+        }
+
+        let classHolder = document.getElementsByClassName(clickId);
+        console.log(classHolder);
+        let reset = document.getElementsByClassName("info-box");
+        if (classHolder !== undefined) {
+            for (i = 0; i < classHolder.length; i++) {
+                classHolder[i].style.display = "block";
+            }
+        }
+
+        for (j = 0; j < reset.length; j++) {
+            if (!reset[j].classList.contains(clickId)) {
+                reset[j].style.display = "none";
+            }
         }
     }
-  }
-  window.addEventListener('click', onClick);
+    window.addEventListener('click', onClick);
 }
 infoboxes();
 

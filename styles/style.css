@@ -94,14 +94,38 @@ header section {
 #explanation {
     position: absolute;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     left: 43%;
     top: 18%;
+    width: 500px;
     border: 1px solid #94515E;
-    padding: 10px;
-    z-index: 1;
+    padding: 15px;
+    z-index: 10;
     background-color: #fff;
+}
+
+#explanation #x {
+    height: fit-content;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 20pt;
+    cursor: pointer;
+}
+
+#explanation h2 {
+    font-size: 20pt;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#explanation h3 {
+    font-size: 13pt;
+    padding: 10px 0px;
+}
+
+#explanation p {
+    font-size: 10pt;
 }
 
 #explanation.hidden {

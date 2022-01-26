@@ -21,8 +21,18 @@
         </section>
     </header>
     <section id="explanation" class="hidden">
-        <h1>Explanation of the visualization</h1>
-        <img src="./question.svg" alt="Explanation of categories and sub categories">
+        <section>
+            <h2>Explanation of the usage of this visualization</h2>
+            <h3>Categories</h3>
+            <img src="./question.svg" alt="Explanation of categories and sub categories">
+            <p>The picture above are examples of how a category with a subcategory will look like and a category without
+                one looks like.</p>
+            <h3>Ingredients</h3>
+            <p>By clicking on one of the ingredients on the outer hexagon, you'll see a list with possible origins in
+                which this material can be found. Substitutes within the same group are divided by their base, see the
+                legend for more information on that.</p>
+        </section>
+        <button id="x">X</button>
     </section>
     <section id="legenda">
         <h2>Legend</h2>
@@ -41,12 +51,12 @@
     </section>
     <section id="wrapper">
         <div id="svg"></div>
-            <section id="info_boxes">
-                <section id="middle_text" class="info-box">
-                    <h2>Ingredients</h2>
-                    <p>Understand where ingredients can be found in nature & find (locally abundant) substitutes</p>
-                </section>
+        <section id="info_boxes">
+            <section id="middle_text" class="info-box">
+                <h2>Ingredients</h2>
+                <p>Understand where ingredients can be found in nature & find (locally abundant) substitutes</p>
             </section>
+        </section>
     </section>
 </body>
 <script src="https://d3js.org/d3.v7.js" charset="utf-8"></script>
