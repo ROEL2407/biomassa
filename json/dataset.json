@@ -246,7 +246,7 @@
       "subcategory": "polysaccharides",
       "functions": "give strength, adhesion, coating, binder,growth substrate,enforcement or scaffold in composites",
       "base": "petrol-based",
-      "origin": [""]
+      "origin": ""
     },
     {
       "name": "petrol-based resins",
@@ -843,7 +843,7 @@
     },
     {
       "name": "pH buffer",
-      "class": "pH_buffer_animal",
+      "class": "ph_buffer_animal",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "pH buffer (stabilizes pH)",
@@ -883,7 +883,7 @@
     },
     {
       "name": "pH buffers",
-      "class": "pH_buffers_inorganic",
+      "class": "ph_buffers_inorganic",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "pH buffer (stabilizes pH)",
@@ -903,7 +903,7 @@
     },
     {
       "name": "pH buffers",
-      "class": "pH_buffers_chem",
+      "class": "ph_buffers_chem",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "pH buffer (stabilizes pH)",
@@ -953,7 +953,7 @@
     },
     {
       "name": "pH buffer",
-      "class": "pH_buffer_animal_growth",
+      "class": "ph_buffer_animal_growth",
       "category": "growth media",
       "subcategory": "",
       "functions": "various functions in microbiological lab work",
@@ -1023,7 +1023,7 @@
     },
     {
       "name": "pH buffer",
-      "class": "pH_buffer_plants",
+      "class": "ph_buffer_plants",
       "category": "growth media",
       "subcategory": "",
       "functions": "various functions in microbiological lab work",
