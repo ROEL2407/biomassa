@@ -569,16 +569,16 @@ header section {
 /* -------- bottom categories --------- */
 .miscellaneous {
     left: 44.5%;
-    bottom: -61%;
+    bottom: -55%;
 }
 
 .solvents {
-    left: 30%;
-    bottom: -48%;
+    left: 32%;
+    bottom: -42%;
 }
 
 .fillers {
-    right: 30%;
+    right: 27%;
     bottom: -48%;
 }
 
