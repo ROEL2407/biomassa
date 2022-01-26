@@ -246,7 +246,7 @@
       "subcategory": "polysaccharides",
       "functions": "give strength, adhesion, coating, binder,growth substrate,enforcement or scaffold in composites",
       "base": "petrol-based",
-      "origin": ""
+      "origin": "No examples of origins"
     },
     {
       "name": "petrol-based resins",
@@ -256,7 +256,7 @@
       "functions": "give strength, adhesion, coating, binder, growth substrate, enforcement or scaffold in composites",
       "base": "petrol-based",
       "wiki": "",
-      "origin": ""
+      "origin": "No examples of origins"
     },
     {
       "name": "elastomer (plant)",
@@ -903,7 +903,7 @@
     },
     {
       "name": "pH buffers",
-      "class": "ph_buffers_chem",
+      "class": "ph_buffer_chem",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "pH buffer (stabilizes pH)",
@@ -1083,7 +1083,7 @@
     },
     {
       "name": "pH modifier",
-      "class": "pH_modifier_chem",
+      "class": "ph_modifier_chem",
       "category": "growth media",
       "subcategory": "",
       "functions": "various functions in microbiological lab work",
