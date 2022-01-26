@@ -41,7 +41,7 @@ function showCategory(data) {
         }
         tempCat.innerHTML = output;
 
-        document.getElementById('background-hex').appendChild(tempCat);
+        document.getElementById('wrapper').appendChild(tempCat);
     })
 }
 
