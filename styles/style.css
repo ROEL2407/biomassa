@@ -609,8 +609,8 @@ header section {
     height: auto;
     width: 300px;
     position: absolute;
-    left: 40%;
-    top: 27.5%;
+    left: 43%;
+    top: 83%;
     background-color: #881e24;
     font-weight:500;
     clip-path: 
@@ -633,7 +633,6 @@ header section {
 .info-box > p:first-of-type {
     font-size: 16pt;
     margin: 20px 20px 20px 20px;
-    /* 8 pt is de standaard */
     text-transform: capitalize;
     display: flex;
     justify-content: center;
@@ -785,7 +784,7 @@ header section {
 
 @media only screen and (max-width: 1660px) {
     .info-box {
-        top: 83%;
+        right: 40%;
     }
 
     .plasticizers,
