@@ -883,7 +883,7 @@
     },
     {
       "name": "pH buffers",
-      "class": "ph_buffers_inorganic",
+      "class": "ph_buffer_inorganic",
       "category": "miscellaneous",
       "subcategory": "",
       "functions": "pH buffer (stabilizes pH)",
