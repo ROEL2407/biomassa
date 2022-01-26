@@ -609,7 +609,7 @@ header section {
     height: auto;
     width: 300px;
     position: absolute;
-    left: 35%;
+    left: 40%;
     top: 27.5%;
     background-color: #881e24;
     font-weight:500;
@@ -785,7 +785,7 @@ header section {
 
 @media only screen and (max-width: 1660px) {
     .info-box {
-        top: 14.5%;
+        top: 83%;
     }
 
     .plasticizers,
