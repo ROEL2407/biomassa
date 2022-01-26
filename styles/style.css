@@ -225,10 +225,6 @@ header section {
     top: 27.5%;
 }
 
-#middle_text h2 {
-    
-}
-
 /* --------------------  end middle text ------------- */
 
 #wrapper {
@@ -338,7 +334,7 @@ header section {
     -o-transform: rotate(360deg);
 }
 
-.subcat:last-of-type {
+.subcat:nth-of-type(3) {
     left: 16%;
     top: -51%;
     transform: rotate(360deg);
@@ -348,7 +344,7 @@ header section {
     -o-transform: rotate(360deg);
 }
 
-.subcat:nth-of-type(2) {
+.subcat:last-of-type {
     z-index: 4;
     left: 60%;
     top: -8%;
@@ -360,7 +356,7 @@ header section {
     border-color: transparent transparent #bf7181 transparent;
 }
 
-.subcat:nth-of-type(3) {
+.subcat:nth-of-type(2) {
     color: #fff;
     left: -28%;
     top: -8%;
@@ -545,55 +541,55 @@ header section {
 
 /* -------- top categories --------- */
 .polymers {
-    left: 37%;
-    top: -42%;
+    left: 44.5%;
+    top: 40%;
 }
 
 .surfactants_cat {
-    left: 17%;
-    top: -21%;
+    left: 33%;
+    top: 55%;
 }
 
 .ph {
-    right: 17%;
-    top: -21%;
+    right: 31%;
+    top: 55%;
 }
 
 .pigments {
-    right: 2.5%;
-    top: 10%;
+    right: 22%;
+    top: 71%;
 }
 
 .plasticizers {
-    left: 2.5%;
-    top: 10%;
+    left: 23.5%;
+    top: 71%;
 }
 
 /* -------- end top categories --------- */
 /* -------- bottom categories --------- */
 .miscellaneous {
-    left: 37.5%;
-    bottom: -42%;
+    left: 44.5%;
+    bottom: -61%;
 }
 
 .solvents {
-    left: 17%;
-    bottom: -21%;
+    left: 30%;
+    bottom: -48%;
 }
 
 .fillers {
-    right: 17%;
-    bottom: -21%;
+    right: 30%;
+    bottom: -48%;
 }
 
 .growth_media {
-    right: 2.5%;
-    bottom: 10%;
+    right: 22%;
+    bottom: -25%;
 }
 
 .mordants {
-    left: 2.5%;
-    bottom: 10%;
+    left: 23.5%;
+    bottom: -25%;
 }
 
 /* -------- end bottom categories --------- */
@@ -653,7 +649,8 @@ header section {
 }
 
 /* ------------  media queries -------------- */
-@media only screen and (max-width: 1700px) {
+
+@media only screen and (max-width: 1750px) {
 
     .plasticizers,
     .pigments,
@@ -735,186 +732,53 @@ header section {
     }
 
     .polymers {
-        left: 37%;
-        top: -42%;
+        left: 44%;
+        top: 38%;
     }
 
     .surfactants_cat {
-        left: 21%;
-        top: -16%;
+        left: 30%;
+        top: 45%;
     }
 
     .ph {
-        right: 22%;
-        top: -16%;
+        right: 27%;
+        top: 45%;
     }
 
     .pigments {
-        right: 9.5%;
-        top: 13%;
+        right: 23.5%;
+        top: 65.5%;
     }
 
     .plasticizers {
-        left: 8.5%;
-        top: 13%;
+        left: 26.5%;
+        top: 66%;
     }
 
     .miscellaneous {
-        left: 37.5%;
+        left: 43.5%;
         bottom: -42%;
     }
 
     .solvents {
-        left: 21%;
-        bottom: -14%;
+        left: 31%;
+        bottom: -30%;
     }
 
     .fillers {
-        right: 22%;
-        bottom: -14%;
+        right: 27%;
+        bottom: -33%;
     }
 
     .growth_media {
-        right: 9.5%;
-        bottom: 15%;
+        right: 23.5%;
+        bottom: -9%;
     }
 
     .mordants {
-        left: 8.5%;
-        bottom: 15%;
-    }
-
-}
-
-@media only screen and (max-width: 1700px) {
-
-    .plasticizers,
-    .pigments,
-    .ph,
-    .surfactants_cat,
-    .fillers,
-    .solvents,
-    .mordants,
-    .growth_media {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 175px;
-        height: 101.04px;
-        background-color: #ffffff;
-        margin: 50.52px 0;
-        border-left: solid 3px #881e24;
-        border-right: solid 3px #881e24;
-        transform: rotate(330deg);
-        -ms-transform: rotate(330deg);
-        -moz-transform: rotate(330deg);
-        -webkit-transform: rotate(330deg);
-        -o-transform: rotate(330deg);
-    }
-
-    .plasticizers:before,
-    .pigments:before,
-    .ph:before,
-    .surfactants_cat:before,
-    .fillers:before,
-    .solvents:before,
-    .mordants:before,
-    .growth_media:before,
-    .plasticizers:after,
-    .pigments:after,
-    .ph:after,
-    .surfactants_cat:after,
-    .fillers:after,
-    .solvents:after,
-    .mordants:after,
-    .growth_media:after {
-        content: "";
-        position: absolute;
-        z-index: 1;
-        width: 123.74px;
-        height: 123.74px;
-        -webkit-transform: scaleY(0.5774) rotate(-45deg);
-        -ms-transform: scaleY(0.5774) rotate(-45deg);
-        transform: scaleY(0.5774) rotate(-45deg);
-        background-color: inherit;
-        left: 22.6282px;
-    }
-
-    .plasticizers:before,
-    .pigments:before,
-    .ph:before,
-    .surfactants_cat:before,
-    .fillers:before,
-    .solvents:before,
-    .mordants:before,
-    .growth_media:before {
-        top: -61.8718px;
-        border-top: solid 4.2426px #881e24;
-        border-right: solid 4.2426px #881e24;
-    }
-
-    .plasticizers:after,
-    .pigments:after,
-    .ph:after,
-    .surfactants_cat:after,
-    .fillers:after,
-    .solvents:after,
-    .mordants:after,
-    .growth_media:after {
-        bottom: -61.8718px;
-        border-bottom: solid 4.2426px #881e24;
-        border-left: solid 4.2426px #881e24;
-    }
-
-    .polymers {
-        left: 37%;
-        top: -42%;
-    }
-
-    .surfactants_cat {
-        left: 21%;
-        top: -16%;
-    }
-
-    .ph {
-        right: 22%;
-        top: -16%;
-    }
-
-    .pigments {
-        right: 9.5%;
-        top: 13%;
-    }
-
-    .plasticizers {
-        left: 8.5%;
-        top: 13%;
-    }
-
-    .miscellaneous {
-        left: 37.5%;
-        bottom: -42%;
-    }
-
-    .solvents {
-        left: 21%;
-        bottom: -14%;
-    }
-
-    .fillers {
-        right: 22%;
-        bottom: -14%;
-    }
-
-    .growth_media {
-        right: 9.5%;
-        bottom: 15%;
-    }
-
-    .mordants {
-        left: 8.5%;
-        bottom: 15%;
+        left: 26.5%;
+        bottom: -9%;
     }
 
 }
@@ -1052,22 +916,22 @@ header section {
     }
 
     .subcat:nth-of-type(2) {
-        left: 58%;
-        top: -10%;
-    }
-
-    .subcat:nth-of-type(3) {
         left: -29%;
         top: -11%;
     }
 
-    .subcat:nth-of-type(3) p {
+    .subcat:nth-of-type(2) p {
         top: 20px;
     }
 
-    .subcat:last-of-type {
+    .subcat:nth-of-type(3) {
         left: 14%;
         top: -54%;
+    }
+
+    .subcat:last-of-type {
+        left: 58%;
+        top: -10%;
     }
 
     .subcat:last-of-type p {
@@ -1077,55 +941,187 @@ header section {
     }
 
     .polymers {
-        left: 42%;
-        top: -32%;
+        left: 45.5%;
+        top: 42%;
     }
 
     .surfactants_cat {
-        left: 29%;
-        top: -14%;
+        left: 31.5%;
+        top: 45%;
     }
 
     .ph {
         right: 27.5%;
-        top: -14%;
+        top: 45%;
     }
 
     .pigments {
-        right: 17.5%;
-        top: 8%;
+        right: 25.5%;
+        top: 61%;    
     }
 
     .plasticizers {
-        left: 18.5%;
-        top: 8%;
+        left: 26.5%;
+        top: 60.5%;    
     }
 
     .miscellaneous {
-        left: 42%;
-        bottom: -4%;
+        left: 45.5%;
+        bottom: -36%;
     }
 
     .solvents {
-        left: 29%;
-        bottom: 15%;
+        left: 30.5%;
+        bottom: -18%;
     }
 
     .fillers {
-        right: 27.5%;
-        bottom: 15%
+        right: 30.5%;
+        bottom: -23%;
     }
 
     .growth_media {
-        right: 17.5%;
-        bottom: 37%;
+        right: 22.5%;
+        bottom: -5%;
     }
 
     .mordants {
-        left: 18.5%;
-        bottom: 37%;
+        left: 26.5%;
+        bottom: -3%;
     }
 
+}
+
+@media only screen and (max-width: 1600px) {
+    .polymers {
+        left: 45.5%;
+        top: 38%;
+    }
+}
+
+@media only screen and (max-width: 1560px) {
+    .polymers {
+        left: 45.5%;
+        top: 38%;
+    }
+
+    .surfactants_cat {
+        left: 29.5%;
+        top: 42%;
+    }
+
+    .ph {
+        right: 27.5%;
+        top: 41%;
+    }
+
+    .pigments {
+        right: 21.5%;
+        top: 57%;    
+    }
+
+    .plasticizers {
+        left: 24.5%;
+        top: 56.5%;   
+    }
+
+    .miscellaneous {
+        left: 45.5%;
+        bottom: -30%;
+    }
+
+    .solvents {
+        left: 33.5%;
+        bottom: -15%;
+    }
+
+    .fillers {
+        right: 30.5%;
+        bottom: -13%;
+    }
+
+    .growth_media {
+        right: 22.5%;
+        bottom: 3%;
+    }
+
+    .mordants {
+        left: 25.5%;
+        bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 1480px) {
+    .polymers {
+        left: 45.5%;
+        top: 34%;
+    }
+
+    .surfactants_cat {
+        left: 29.5%;
+        top: 38%;
+    }
+
+    .ph {
+        right: 27.5%;
+        top: 38%;
+    }
+
+    .pigments {
+        right: 21.5%;
+        top: 53%;    
+    }
+
+    .plasticizers {
+        left: 22.5%;
+        top: 54.5%;
+    }
+
+    .miscellaneous {
+        left: 45.5%;
+        bottom: -24%;
+    }
+
+    .solvents {
+        left: 32.5%;
+        bottom: -6%;
+    }
+
+    .fillers {
+        right: 32.5%;
+        bottom: -7%;
+    }
+
+    .growth_media {
+        right: 20.5%;
+        bottom: 7%;
+    }
+
+    .mordants {
+        left: 23.5%;
+        bottom: 6%;
+    }
+}
+
+@media only screen and (max-width: 1410px) {
+    .miscellaneous {
+        left: 45.5%;
+        bottom: -21%;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .miscellaneous {
+        left: 44.5%;
+        bottom: -18%;
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .miscellaneous {
+        left: 43.5%;
+        bottom: -14%;
+    }
 }
 
 /* ------------  end media queries -------------- */
